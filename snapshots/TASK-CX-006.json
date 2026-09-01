@@ -1,0 +1,34 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "e931553846e648a9c57e00dabb7bb0b35951c341",
+  "branch": "codex/task-cx-006-frame-curation",
+  "changed_files": [
+    "docs/tasks/TASK-CX-006.md",
+    "tests/test_vibecode_frame_curation.py",
+    "vibecode/curation_workspace.py",
+    "vibecode/models/__init__.py",
+    "vibecode/models/curation.py",
+    "vibecode/services/frame_curation.py"
+  ],
+  "commit_sha": "dbdb1229228ac43f7d06ebe437086621aac85295",
+  "diff_stat": {
+    "deletions": 0,
+    "files": 6,
+    "insertions": 748
+  },
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-006",
+  "tests": {
+    "failed": 0,
+    "passed": 84,
+    "total": 84
+  }
+}
