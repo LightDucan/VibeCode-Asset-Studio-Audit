@@ -1,0 +1,44 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "81075a10c1da00b52b52e2f4d5c883c20715400c",
+  "branch": "codex/task-cx-005f-gate-fixes",
+  "changed_files": [
+    "scripts/export_audit_snapshot.py"
+  ],
+  "commit_sha": "de39e42219afc628c847ea1282353530f2da5be0",
+  "diff_stat": {
+    "deletions": 1,
+    "files": 1,
+    "insertions": 1
+  },
+  "implementation_sha_tested": "de39e42219afc628c847ea1282353530f2da5be0",
+  "issue_severity_summary": {
+    "P0": 1,
+    "P1": 1,
+    "P2": 1,
+    "P3": 1
+  },
+  "known_limitations": [
+    "P0: 0",
+    "P1: 0",
+    "P2: 0",
+    "P3: 0"
+  ],
+  "qa_commit": "de39e42219afc628c847ea1282353530f2da5be0",
+  "qa_result": "PASS",
+  "qa_status": "PASS",
+  "recommendation": "READY_FOR_CHATGPT_GATE_05_DECISION",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_AUDIT",
+  "task_id": "TASK-AG-005R",
+  "tests": {
+    "failed": 0,
+    "passed": 76,
+    "total": 76
+  }
+}
