@@ -19,7 +19,7 @@
     "vibecode/review_workspace.py",
     "vibecode/services/frame_review.py"
   ],
-  "commit_sha": "81075a10c1da00b52b52e2f4d5c883c20715400c",
+  "commit_sha": "de39e42219afc628c847ea1282353530f2da5be0",
   "diff_stat": {
     "deletions": 3,
     "files": 10,
