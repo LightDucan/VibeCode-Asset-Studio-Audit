@@ -1,0 +1,51 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "645dd0e17a12fffec117d81c7f152bca2f13940a",
+  "branch": "codex/task-ag-009-qa",
+  "changed_files": [
+    "docs/qa/TASK-AG-009.md"
+  ],
+  "commit_sha": "0212b0f80521cd56d6a565e54e6115b47e524a1a",
+  "diff_stat": {
+    "deletions": 0,
+    "files": 1,
+    "insertions": 44
+  },
+  "implementation_sha_tested": "645dd0e17a12fffec117d81c7f152bca2f13940a",
+  "issue_severity_summary": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "known_limitations": [],
+  "qa_commit": null,
+  "qa_result": "PASS",
+  "qa_status": "PASS",
+  "recommendation": "READY_FOR_CHATGPT_GATE_09_DECISION",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_AUDIT",
+  "task_id": "TASK-AG-009",
+  "tests": {
+    "failed": 0,
+    "passed": 104,
+    "total": 104
+  }
+}
