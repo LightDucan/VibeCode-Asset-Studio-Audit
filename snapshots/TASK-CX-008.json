@@ -1,0 +1,46 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "287d5ec8f0c1024cb0c25707593347c81c9ed1a1",
+  "branch": "codex/task-cx-008-canvas-alignment",
+  "changed_files": [
+    "docs/tasks/TASK-CX-008.md",
+    "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+    "examples/background-removal-fixture/08_canvas_alignment/rgba/frame_000001.png",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_canvas_alignment.py",
+    "vibecode/alignment_workspace.py",
+    "vibecode/models/__init__.py",
+    "vibecode/models/alignment.py",
+    "vibecode/pipeline/registry.py",
+    "vibecode/services/canvas_alignment.py"
+  ],
+  "commit_sha": "4463dca6cba4ca3db3be96de8bd5b3d7cd84ac12",
+  "diff_stat": {
+    "deletions": 2,
+    "files": 10,
+    "insertions": 432
+  },
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-008",
+  "tests": {
+    "failed": 0,
+    "passed": 98,
+    "total": 98
+  }
+}
