@@ -1,7 +1,7 @@
 # Gate 05 — Privacy and Frame Review Follow-up
 
 Gate: 05
-Implementation SHA: `81075a10c1da00b52b52e2f4d5c883c20715400c`
+Implementation SHA: `de39e42219afc628c847ea1282353530f2da5be0`
 QA SHA: `5754110888ea91712281a0aac82de2b84304f85a`
 Decision: PASS_WITH_NOTES
 Blocking issues: Historical AG-004 report remains `REPORT_RECOVERY_REQUIRED`; no historical QA was fabricated.
