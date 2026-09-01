@@ -1,0 +1,29 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "1875acb54f9ab88f505f9aa4ed98de797da1b227",
+  "branch": "codex/task-cx-005f-gate-fixes",
+  "changed_files": [
+    "docs/qa/TASK-AG-005.md"
+  ],
+  "commit_sha": "3bd42aa205b735abaa2237711360bd6a35a1c132",
+  "diff_stat": {
+    "deletions": 0,
+    "files": 1,
+    "insertions": 2
+  },
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_AUDIT",
+  "task_id": "TASK-AG-005",
+  "tests": {
+    "failed": 0,
+    "passed": 76,
+    "total": 76
+  }
+}
