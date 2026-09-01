@@ -1,0 +1,40 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "38f7bb490a725bf97736449d6bc2ad50e797b0ca",
+  "branch": "codex/task-cx-005f-gate-fixes",
+  "changed_files": [
+    ".gitignore",
+    "docs/qa/TASK-AG-005.md",
+    "docs/tasks/TASK-CX-005F.md",
+    "scripts/__init__.py",
+    "scripts/export_audit_snapshot.py",
+    "scripts/publish_audit_snapshot.py",
+    "tests/test_audit_exporter.py",
+    "tests/test_vibecode_frame_review.py",
+    "vibecode/review_workspace.py",
+    "vibecode/services/frame_review.py"
+  ],
+  "commit_sha": "1875acb54f9ab88f505f9aa4ed98de797da1b227",
+  "diff_stat": {
+    "deletions": 3,
+    "files": 10,
+    "insertions": 351
+  },
+  "known_limitations": [
+    "Historical AG-004 report recovery remains an evidence gap; this task does not replace it with a fabricated report."
+  ],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-005F",
+  "tests": {
+    "failed": 0,
+    "passed": 76,
+    "total": 76
+  }
+}
