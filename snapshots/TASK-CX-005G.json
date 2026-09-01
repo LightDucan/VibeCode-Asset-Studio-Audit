@@ -1,0 +1,30 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "e2c5c552c72f0e833290c26e56a2590e2f502795",
+  "branch": "codex/task-cx-005g-audit-parser-fix",
+  "changed_files": [
+    "scripts/export_audit_snapshot.py",
+    "tests/test_audit_exporter.py"
+  ],
+  "commit_sha": "e931553846e648a9c57e00dabb7bb0b35951c341",
+  "diff_stat": {
+    "deletions": 8,
+    "files": 2,
+    "insertions": 38
+  },
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_AUDIT",
+  "task_id": "TASK-CX-005G",
+  "tests": {
+    "failed": 0,
+    "passed": 79,
+    "total": 79
+  }
+}
