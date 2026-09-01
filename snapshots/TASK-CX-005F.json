@@ -19,11 +19,11 @@
     "vibecode/review_workspace.py",
     "vibecode/services/frame_review.py"
   ],
-  "commit_sha": "1875acb54f9ab88f505f9aa4ed98de797da1b227",
+  "commit_sha": "3bd42aa205b735abaa2237711360bd6a35a1c132",
   "diff_stat": {
     "deletions": 3,
     "files": 10,
-    "insertions": 351
+    "insertions": 353
   },
   "known_limitations": [
     "Historical AG-004 report recovery remains an evidence gap; this task does not replace it with a fabricated report."
