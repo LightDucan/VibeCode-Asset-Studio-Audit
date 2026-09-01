@@ -1,0 +1,53 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
+      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "645dd0e17a12fffec117d81c7f152bca2f13940a",
+  "branch": "codex/task-cx-010-realtime-preview",
+  "changed_files": [
+    "docs/tasks/TASK-CX-010.md",
+    "examples/background-removal-fixture/10_realtime_preview/preview.json",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_realtime_preview.py",
+    "vibecode/models/__init__.py",
+    "vibecode/models/preview.py",
+    "vibecode/pipeline/registry.py",
+    "vibecode/realtime_preview_workspace.py",
+    "vibecode/services/realtime_preview.py"
+  ],
+  "commit_sha": "c010f88a2c8459a1006efc93352ec2c98480b12a",
+  "diff_stat": {
+    "deletions": 2,
+    "files": 9,
+    "insertions": 327
+  },
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-010",
+  "tests": {
+    "failed": 0,
+    "passed": 110,
+    "total": 110
+  }
+}
