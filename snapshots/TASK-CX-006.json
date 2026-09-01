@@ -13,13 +13,14 @@
     "vibecode/curation_workspace.py",
     "vibecode/models/__init__.py",
     "vibecode/models/curation.py",
+    "vibecode/review_workspace.py",
     "vibecode/services/frame_curation.py"
   ],
-  "commit_sha": "dbdb1229228ac43f7d06ebe437086621aac85295",
+  "commit_sha": "ab6393eee3f4c772f667a5e96d378d432c1d1ec6",
   "diff_stat": {
     "deletions": 0,
-    "files": 6,
-    "insertions": 748
+    "files": 7,
+    "insertions": 774
   },
   "known_limitations": [],
   "qa_status": "PASS_WITH_NOTES",
