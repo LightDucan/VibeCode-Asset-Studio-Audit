@@ -1,0 +1,49 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "96b187237e25569468ab132c887489c11598a7d1",
+  "branch": "codex/task-cx-009-animation-timing",
+  "changed_files": [
+    "docs/tasks/TASK-CX-009.md",
+    "examples/background-removal-fixture/09_animation_timing/timing.json",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_animation_timing.py",
+    "vibecode/models/__init__.py",
+    "vibecode/models/timing.py",
+    "vibecode/pipeline/registry.py",
+    "vibecode/services/animation_timing.py",
+    "vibecode/timing_workspace.py"
+  ],
+  "commit_sha": "203503772e54e8924194991b16d7930ef57b6d10",
+  "diff_stat": {
+    "deletions": 2,
+    "files": 9,
+    "insertions": 305
+  },
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-009",
+  "tests": {
+    "failed": 0,
+    "passed": 104,
+    "total": 104
+  }
+}
