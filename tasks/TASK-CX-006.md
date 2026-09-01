@@ -3,7 +3,7 @@
 STATUS: READY_FOR_QA
 BASE: `e931553846e648a9c57e00dabb7bb0b35951c341`
 Branch: `codex/task-cx-006-frame-curation`
-Commit SHA: `79a98e7b5bbeab39f3d53534342d718c5c03ae8c`
+Commit SHA: `2f9b46edec60aba46c6e2678927e44bd5d724a73`
 
 Implemented Step 06 `frame_curation` as a deterministic, metadata-only assistant.
 The service analyzes only Step-05 KEEP/KEY candidates, preserves immutable Step-04

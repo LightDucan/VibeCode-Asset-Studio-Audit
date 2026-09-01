@@ -16,11 +16,11 @@
     "vibecode/review_workspace.py",
     "vibecode/services/frame_curation.py"
   ],
-  "commit_sha": "ab6393eee3f4c772f667a5e96d378d432c1d1ec6",
+  "commit_sha": "127498b9f1930339acdd30579d772181fa6e90bc",
   "diff_stat": {
     "deletions": 0,
     "files": 7,
-    "insertions": 774
+    "insertions": 775
   },
   "known_limitations": [],
   "qa_status": "PASS_WITH_NOTES",
