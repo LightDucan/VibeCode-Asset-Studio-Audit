@@ -5,30 +5,26 @@
       "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
     }
   ],
-  "base_sha": "374b0f1feb8c01a5390cfd2ee7cef2b36d251822",
-  "branch": "codex/task-ag-005r-qa",
+  "base_sha": "e2c5c552c72f0e833290c26e56a2590e2f502795",
+  "branch": "codex/task-cx-005g-audit-parser-fix",
   "changed_files": [
-    "docs/qa/TASK-AG-005R.md"
+    "scripts/export_audit_snapshot.py",
+    "tests/test_audit_exporter.py"
   ],
-  "commit_sha": "e2c5c552c72f0e833290c26e56a2590e2f502795",
+  "commit_sha": "e931553846e648a9c57e00dabb7bb0b35951c341",
   "diff_stat": {
-    "deletions": 1,
-    "files": 1,
-    "insertions": 1
+    "deletions": 8,
+    "files": 2,
+    "insertions": 38
   },
   "implementation_sha_tested": "de39e42219afc628c847ea1282353530f2da5be0",
   "issue_severity_summary": {
-    "P0": 1,
-    "P1": 1,
-    "P2": 1,
-    "P3": 1
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
   },
-  "known_limitations": [
-    "P0: 0",
-    "P1: 0",
-    "P2: 0",
-    "P3: 0"
-  ],
+  "known_limitations": [],
   "qa_commit": "ee14fa2537f2cf87e32003eea9cb62fd0b710b7e",
   "qa_result": "PASS",
   "qa_status": "PASS",
@@ -38,7 +34,7 @@
   "task_id": "TASK-AG-005R",
   "tests": {
     "failed": 0,
-    "passed": 76,
-    "total": 76
+    "passed": 79,
+    "total": 79
   }
 }
