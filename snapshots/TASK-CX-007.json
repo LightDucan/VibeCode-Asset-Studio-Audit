@@ -1,0 +1,43 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "2f9b46edec60aba46c6e2678927e44bd5d724a73",
+  "branch": "codex/task-cx-007-background-removal",
+  "changed_files": [
+    "docs/tasks/TASK-CX-007.md",
+    "examples/background-removal-fixture/04_frames/full_sequence/source/frame_000001.png",
+    "examples/background-removal-fixture/07_background_removal/background_removal.json",
+    "examples/background-removal-fixture/07_background_removal/rgba/frame_000001.png",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_background_removal.py",
+    "vibecode/background_removal_workspace.py",
+    "vibecode/models/__init__.py",
+    "vibecode/models/background.py",
+    "vibecode/pipeline/registry.py",
+    "vibecode/services/background_removal.py"
+  ],
+  "commit_sha": "6e8a806887561540a545a676a0d461dedf8bd1c3",
+  "diff_stat": {
+    "deletions": 2,
+    "files": 11,
+    "insertions": 448
+  },
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-007",
+  "tests": {
+    "failed": 0,
+    "passed": 92,
+    "total": 92
+  }
+}
