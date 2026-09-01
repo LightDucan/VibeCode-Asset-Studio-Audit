@@ -13,7 +13,7 @@ The public mirror is `LightDucan/VibeCode-Asset-Studio-Audit`. Its README docume
 
 Step-05 now renders the selected frame's PTS/timestamp and Step-04 source dimensions in the side panel. Values are read from the existing `frames.json` and are not duplicated or rewritten. Master frames, thumbnails, checksums, timestamps, and `frames.json` remain immutable.
 
-The suite reports **73 tests passed, 0 failures** (the previous 72 remain green; one new metadata regression test was added). Exporter tests cover deterministic output, task identity, SHA/path/stat metadata, artifact hashes, source-content exclusion, unsafe binary/secret/absolute-path rejection, and repeated export stability.
+The suite reports **76 tests passed, 0 failures** (the previous 72 remain green; one new metadata regression test and three exporter tests were added). Exporter tests cover deterministic output, task identity, SHA/path/stat metadata, artifact hashes, source-content exclusion, unsafe binary/secret/absolute-path rejection, and repeated export stability.
 
 AG-004 remains explicitly `REPORT_RECOVERY_REQUIRED`; no historical report is fabricated. The evidence gap is carried into the audit snapshot as a known limitation.
 
