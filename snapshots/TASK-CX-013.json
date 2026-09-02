@@ -64,11 +64,11 @@
     "vibecode/services/vfx_source_curation.py",
     "vibecode/vfx_source_workspace.py"
   ],
-  "commit_sha": "ac5328d733a78ceb474b8f19a90b9fa2667dc247",
+  "commit_sha": "9ab902ec9b4ddcefad8939b2f9f506784c239e12",
   "diff_stat": {
     "deletions": 6,
     "files": 15,
-    "insertions": 356
+    "insertions": 375
   },
   "exported_png_artifacts": [
     {

@@ -5,7 +5,7 @@ STATUS: READY_FOR_QA
 Task: TASK-CX-013
 Branch: `codex/task-cx-013-vfx-source-curation`
 BASE: `d4c4b22058a9e18709ba3284f9d0d4e388a8e769`
-Implementation Commit: `f73b03b7d3f27cc020f1861f4dcdf8e536c055f5`
+Implementation Commit: `d776e71f930cc9f174cb51fb9daf093a4d7ff46e`
 
 ## Scope
 
