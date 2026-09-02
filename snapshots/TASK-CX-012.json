@@ -1,0 +1,93 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
+      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
+    },
+    {
+      "path": "examples/background-removal-fixture/11_png_sequence_export/export.json",
+      "sha256": "564ac840c32c4d544da237b18b573d1f5cff7e796a89e5b726697430241a70fd"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/composite/composite.json",
+      "sha256": "a65b4d80f3d7da1573b17846719ac9ead2d902834d1cab48e76b6602b39dcf8a"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/overlay.json",
+      "sha256": "d1c3bda5645587f962600fd3874436e9b3d50cfca300b6eba43a1ed6eac0cfde"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "c1ef6e8f72bf774917d8222129e0ab8bab2373c2",
+  "branch": "codex/task-cx-012-vfx-overlay-core",
+  "changed_files": [
+    "docs/tasks/TASK-CX-012.md",
+    "examples/background-removal-fixture/vfx/alpha/frame_000001.png",
+    "examples/background-removal-fixture/vfx/composite/composite.json",
+    "examples/background-removal-fixture/vfx/composite/png/frame_000001.png",
+    "examples/background-removal-fixture/vfx/overlay.json",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_vfx_overlay.py",
+    "vibecode/services/vfx_overlay.py",
+    "vibecode/vfx_overlay_workspace.py"
+  ],
+  "commit_sha": "1721e4b8a8ba70e27be076f02c5f959353e7b43f",
+  "diff_stat": {
+    "deletions": 1,
+    "files": 9,
+    "insertions": 376
+  },
+  "exported_png_artifacts": [
+    {
+      "first": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/11_png_sequence_export/export.json"
+    }
+  ],
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-012",
+  "tests": {
+    "failed": 0,
+    "passed": 120,
+    "total": 120
+  },
+  "vfx_composite_artifacts": [
+    {
+      "first": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/vfx/composite/composite.json"
+    }
+  ]
+}
