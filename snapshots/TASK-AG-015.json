@@ -1,0 +1,470 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
+      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
+    },
+    {
+      "path": "examples/background-removal-fixture/11_png_sequence_export/export.json",
+      "sha256": "564ac840c32c4d544da237b18b573d1f5cff7e796a89e5b726697430241a70fd"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/composite/composite.json",
+      "sha256": "a65b4d80f3d7da1573b17846719ac9ead2d902834d1cab48e76b6602b39dcf8a"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/overlay.json",
+      "sha256": "d1c3bda5645587f962600fd3874436e9b3d50cfca300b6eba43a1ed6eac0cfde"
+    },
+    {
+      "path": "examples/production-fixture/production/action_pack.json",
+      "sha256": "2f2c8740a8d96cb5c308f3681a3be625cc861c1cc0349ec2d99c0922dd6bd0c6"
+    },
+    {
+      "path": "examples/production-fixture/production/character.json",
+      "sha256": "425c7bf9e7230b35701a1db888db4c4b5f3524d9728bba9da2e6878c4715e690"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/10_realtime_preview/preview.json",
+      "sha256": "8f3ecddc928749f345d06e211afa6504d4d500d3fe5d47ca3bb40878f8d63a92"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/11_png_sequence_export/export.json",
+      "sha256": "429a332b844952008809cdda8f6d53dbb2000a94371fd7dc28694649e334f3ad"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-burst/variant.json",
+      "sha256": "2eba2317269922ef9c11ad4588241fe4e800fda6092dbdfcb8a755f36d0871f2"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-slash/variant.json",
+      "sha256": "d43938e06dcf6eae38915d1295b1da4181645b15345eac59f664bdbbc994aba9"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/composite/composite.json",
+      "sha256": "3ac8c53932728a8bdfa74dbf6f100b657ea57f0686c1d2adbdbc3d3d3ad62b34"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/curation/curation.json",
+      "sha256": "e5102e32e60d7868d640bd0682fd0924dddf66cdaa712e2dfc56619dca202caa"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/extracted/extraction.json",
+      "sha256": "729eaade13a61922069a28e261a55e30bb6b3e7e2747b59228a4277318eae8ce"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/intake/source.json",
+      "sha256": "87eee14b26d38cb8509976f890952df8f5b4a83b861f4b6605a08f18093001f1"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/overlay.json",
+      "sha256": "153ab49a86b1ac86e3876ea40bd926f2bb76ca25436caa0c7087dd7f34fe0cb6"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/review/review.json",
+      "sha256": "0bc944f295fbb0367725321cc155a37d143a8036dadca231bbc23ab55c5750bf"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/directional-slash-v1/1.0/asset.json",
+      "sha256": "7bee00ad6c3ca58def0d87fb26a0376d3011e84cdad3a8e03ff013663a760bc6"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/index.json",
+      "sha256": "cef726276e48eff81dfc61207c45e07b3d2d08d7a3f309a68c78ef289b861435"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/radial-burst-v1/1.0/asset.json",
+      "sha256": "0ab491202379c68b39f56b8ea6d39bded7c87acb134a8248b684d5f394bc2a53"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/10_realtime_preview/preview.json",
+      "sha256": "5df7ca6bfecc8d09c1f26b0e865ef0d35b5a652ba97e619b3601a050fa196ec2"
+    },
+    {
+      "path": "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/11_png_sequence_export/export.json",
+      "sha256": "ee45d78561f3faa5b620337ca2b0a9a7e587a859027a38d58ab964817fdad489"
+    },
+    {
+      "path": "examples/production-fixture/variants/skill-burst/variant.json",
+      "sha256": "2eba2317269922ef9c11ad4588241fe4e800fda6092dbdfcb8a755f36d0871f2"
+    },
+    {
+      "path": "examples/production-fixture/variants/skill-slash/variant.json",
+      "sha256": "d43938e06dcf6eae38915d1295b1da4181645b15345eac59f664bdbbc994aba9"
+    },
+    {
+      "path": "examples/production-fixture/vfx_library/directional-slash-v1/1.0/asset.json",
+      "sha256": "7bee00ad6c3ca58def0d87fb26a0376d3011e84cdad3a8e03ff013663a760bc6"
+    },
+    {
+      "path": "examples/production-fixture/vfx_library/index.json",
+      "sha256": "cef726276e48eff81dfc61207c45e07b3d2d08d7a3f309a68c78ef289b861435"
+    },
+    {
+      "path": "examples/production-fixture/vfx_library/radial-burst-v1/1.0/asset.json",
+      "sha256": "0ab491202379c68b39f56b8ea6d39bded7c87acb134a8248b684d5f394bc2a53"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
+      "sha256": "43a7f22555ab990ab0fe1cc2262b74ac8a8b88ff188730df207121b10bbb9756"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
+      "sha256": "50784aef60d4d870010b8afdf65690b59f3dba97870e8cd5a11d6e786fb27cfe"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
+      "sha256": "9bfa0b79c8775ed3eec0962dc63b60f8ce5b6ff8357151ab2ed905107d7d0e6d"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/extracted/extraction.json",
+      "sha256": "e069a8977b9da1294abef9fe0c5fd5e621cc7d14c0702a394ae6cb6e6547fad9"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/intake/source.json",
+      "sha256": "71e118e2a37add23f1a01d467e6a6c1c11f9eb4744db9a7e2328b857f849b986"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
+      "sha256": "e7d079cb24454176becf31df81a86b453cf5a3acb4efac316bd18f8dd52f8a82"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/index.json",
+      "sha256": "4cdca76bebed18db990ec3b78ddc454f785ff405520b5b017434317d48413a14"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
+      "sha256": "57864b06f32e94aedad4c528e32d8eaab70b9c44b3b06ba5f4cd8a011eb5ae2d"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "d216b32d8a6806b4e3843e65e7e7320475437c69",
+  "branch": "codex/task-ag-015-qa",
+  "changed_files": [
+    "docs/qa/TASK-AG-015.md",
+    "docs/tasks/TASK-CX-015.md",
+    "examples/production-fixture/production/action_pack.json",
+    "examples/production-fixture/production/character.json",
+    "examples/production-fixture/profiles/hero-phoenix.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/10_realtime_preview/preview.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/11_png_sequence_export/export.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/11_png_sequence_export/png/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/11_png_sequence_export/png/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/11_png_sequence_export/png/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/run.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-burst/composite/composite.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-burst/composite/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-burst/composite/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-burst/composite/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-burst/variant.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-slash/composite/composite.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-slash/composite/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-slash/composite/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-slash/composite/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-slash/variant.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/alpha/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/alpha/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/alpha/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/alpha/overlay.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/composite/composite.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/composite/png/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/composite/png/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/composite/png/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/curation/curation.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/extracted/extraction.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/extracted/frames/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/extracted/frames/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/extracted/frames/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/intake/source.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/overlay.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/review/review.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/alpha/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/alpha/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/alpha/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/curation/curation.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/extracted/frames/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/extracted/frames/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/extracted/frames/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_b/overlay.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/directional-slash-v1/1.0/asset.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/index.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/radial-burst-v1/1.0/asset.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/10_realtime_preview/preview.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/11_png_sequence_export/export.json",
+    "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/11_png_sequence_export/png/frame_000001.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/11_png_sequence_export/png/frame_000002.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/11_png_sequence_export/png/frame_000003.png",
+    "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/run.json",
+    "examples/production-fixture/projects/hero-phoenix/project.json",
+    "examples/production-fixture/variants/skill-burst/composite/composite.json",
+    "examples/production-fixture/variants/skill-burst/composite/frame_000001.png",
+    "examples/production-fixture/variants/skill-burst/composite/frame_000002.png",
+    "examples/production-fixture/variants/skill-burst/composite/frame_000003.png",
+    "examples/production-fixture/variants/skill-burst/variant.json",
+    "examples/production-fixture/variants/skill-slash/composite/composite.json",
+    "examples/production-fixture/variants/skill-slash/composite/frame_000001.png",
+    "examples/production-fixture/variants/skill-slash/composite/frame_000002.png",
+    "examples/production-fixture/variants/skill-slash/composite/frame_000003.png",
+    "examples/production-fixture/variants/skill-slash/variant.json",
+    "examples/production-fixture/vfx_library/directional-slash-v1/1.0/asset.json",
+    "examples/production-fixture/vfx_library/index.json",
+    "examples/production-fixture/vfx_library/radial-burst-v1/1.0/asset.json",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_production_orchestrator.py",
+    "vibecode/production_workspace.py",
+    "vibecode/services/production_orchestrator.py"
+  ],
+  "commit_sha": "bbca5f1c77c989dcaa0951b166deb4bd5e26fef4",
+  "diff_stat": {
+    "deletions": 1,
+    "files": 72,
+    "insertions": 3147
+  },
+  "exported_png_artifacts": [
+    {
+      "first": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/11_png_sequence_export/export.json"
+    },
+    {
+      "first": {
+        "path": null,
+        "sha256": null
+      },
+      "frame_count": 3,
+      "last": {
+        "path": null,
+        "sha256": null
+      },
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/11_png_sequence_export/export.json"
+    },
+    {
+      "first": {
+        "path": null,
+        "sha256": null
+      },
+      "frame_count": 3,
+      "last": {
+        "path": null,
+        "sha256": null
+      },
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/idle/run-idle/11_png_sequence_export/export.json"
+    }
+  ],
+  "implementation_sha_tested": "78ee4a400b786ad6ce93d8b0dd0899bffecc383c",
+  "issue_severity_summary": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "known_limitations": [],
+  "production_artifacts": [
+    {
+      "action_count": 2,
+      "kind": "character_action_pack",
+      "manifest": "examples/production-fixture/production/action_pack.json",
+      "sha256": "2f2c8740a8d96cb5c308f3681a3be625cc861c1cc0349ec2d99c0922dd6bd0c6",
+      "state": "COMPLETE"
+    },
+    {
+      "action_count": 2,
+      "kind": "character.json",
+      "manifest": "examples/production-fixture/production/character.json",
+      "sha256": "425c7bf9e7230b35701a1db888db4c4b5f3524d9728bba9da2e6878c4715e690",
+      "state": "COMPLETE"
+    }
+  ],
+  "qa_commit": null,
+  "qa_result": "PASS",
+  "qa_status": "PASS",
+  "recommendation": "READY_FOR_CHATGPT_GATE_15_DECISION",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_AUDIT",
+  "task_id": "TASK-AG-015",
+  "tests": {
+    "failed": 0,
+    "passed": 140,
+    "total": 140
+  },
+  "vfx_asset_library_artifacts": [
+    {
+      "asset_id": "directional-slash-v1",
+      "content_checksum": "92eb12593dfdb1d83556622936032086db6ccbf9db459e709b704fcd49df8cb7",
+      "frame_count": 3,
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/directional-slash-v1/1.0/asset.json",
+      "sha256": "7bee00ad6c3ca58def0d87fb26a0376d3011e84cdad3a8e03ff013663a760bc6",
+      "version": "1.0"
+    },
+    {
+      "asset_id": "radial-burst-v1",
+      "content_checksum": "cbb29b2f8ccdd373735341eccb26a2e66b1798cf8cecf4c86a76d6f2014c9e95",
+      "frame_count": 3,
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx_library/radial-burst-v1/1.0/asset.json",
+      "sha256": "0ab491202379c68b39f56b8ea6d39bded7c87acb134a8248b684d5f394bc2a53",
+      "version": "1.0"
+    },
+    {
+      "asset_id": "directional-slash-v1",
+      "content_checksum": "92eb12593dfdb1d83556622936032086db6ccbf9db459e709b704fcd49df8cb7",
+      "frame_count": 3,
+      "manifest": "examples/production-fixture/vfx_library/directional-slash-v1/1.0/asset.json",
+      "sha256": "7bee00ad6c3ca58def0d87fb26a0376d3011e84cdad3a8e03ff013663a760bc6",
+      "version": "1.0"
+    },
+    {
+      "asset_id": "radial-burst-v1",
+      "content_checksum": "cbb29b2f8ccdd373735341eccb26a2e66b1798cf8cecf4c86a76d6f2014c9e95",
+      "frame_count": 3,
+      "manifest": "examples/production-fixture/vfx_library/radial-burst-v1/1.0/asset.json",
+      "sha256": "0ab491202379c68b39f56b8ea6d39bded7c87acb134a8248b684d5f394bc2a53",
+      "version": "1.0"
+    },
+    {
+      "asset_id": "directional-line-v1",
+      "content_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "frame_count": 3,
+      "manifest": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
+      "sha256": "e7d079cb24454176becf31df81a86b453cf5a3acb4efac316bd18f8dd52f8a82",
+      "version": "1"
+    },
+    {
+      "asset_id": "triple-line-v1",
+      "content_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "frame_count": 3,
+      "manifest": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
+      "sha256": "57864b06f32e94aedad4c528e32d8eaab70b9c44b3b06ba5f4cd8a011eb5ae2d",
+      "version": "1"
+    }
+  ],
+  "vfx_composite_artifacts": [
+    {
+      "first": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/vfx/composite/composite.json"
+    },
+    {
+      "first": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "f3cd485e8039b944f0d53d9dc4b96edcb124d83e4bef46b27bc96d106d3549d7"
+      },
+      "frame_count": 3,
+      "last": {
+        "path": "vfx/composite/png/frame_000003.png",
+        "sha256": "c5efd58d6eeb5e7df0c0064604155e557c4d36683b0c723b10ec01c7f60bf414"
+      },
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/composite/composite.json"
+    }
+  ],
+  "vfx_curation_artifacts": [
+    {
+      "first": {
+        "path": "vfx/extracted/frames/frame_000001.png",
+        "sha256": "105fdc637c1f34c244c9ecea322d152e090924bdb0e2594f07525aa7487aa18e"
+      },
+      "last": {
+        "path": "vfx/extracted/frames/frame_000003.png",
+        "sha256": "85fa5213e472c5afc0b7b65c1f4567b1cb26b52d695e3c0f176a8041afd19f08"
+      },
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/vfx/curation/curation.json",
+      "selection_count": 3
+    },
+    {
+      "first": {
+        "path": "vfx/extracted/frames/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "last": {
+        "path": "vfx/extracted/frames/frame_000003.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
+      "selection_count": 3
+    }
+  ],
+  "vfx_variant_artifacts": [
+    {
+      "composite_checksum": "5deaf05d36deb7663558d0b876029178c7b879f9d397179fcd066a921675758c",
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-burst/variant.json",
+      "motion_checksum": "8f3ecddc928749f345d06e211afa6504d4d500d3fe5d47ca3bb40878f8d63a92",
+      "sha256": "2eba2317269922ef9c11ad4588241fe4e800fda6092dbdfcb8a755f36d0871f2",
+      "state": "READY",
+      "variant_id": "skill-burst",
+      "vfx_asset_checksum": "cbb29b2f8ccdd373735341eccb26a2e66b1798cf8cecf4c86a76d6f2014c9e95"
+    },
+    {
+      "composite_checksum": "39cb9db529c0ab5da2601a536796895b030850b4ec4cf470fbe9e0ef5218709f",
+      "manifest": "examples/production-fixture/projects/hero-phoenix/actions/basic-attack/run-attack/variants/skill-slash/variant.json",
+      "motion_checksum": "8f3ecddc928749f345d06e211afa6504d4d500d3fe5d47ca3bb40878f8d63a92",
+      "sha256": "d43938e06dcf6eae38915d1295b1da4181645b15345eac59f664bdbbc994aba9",
+      "state": "READY",
+      "variant_id": "skill-slash",
+      "vfx_asset_checksum": "92eb12593dfdb1d83556622936032086db6ccbf9db459e709b704fcd49df8cb7"
+    },
+    {
+      "composite_checksum": "5deaf05d36deb7663558d0b876029178c7b879f9d397179fcd066a921675758c",
+      "manifest": "examples/production-fixture/variants/skill-burst/variant.json",
+      "motion_checksum": "8f3ecddc928749f345d06e211afa6504d4d500d3fe5d47ca3bb40878f8d63a92",
+      "sha256": "2eba2317269922ef9c11ad4588241fe4e800fda6092dbdfcb8a755f36d0871f2",
+      "state": "READY",
+      "variant_id": "skill-burst",
+      "vfx_asset_checksum": "cbb29b2f8ccdd373735341eccb26a2e66b1798cf8cecf4c86a76d6f2014c9e95"
+    },
+    {
+      "composite_checksum": "39cb9db529c0ab5da2601a536796895b030850b4ec4cf470fbe9e0ef5218709f",
+      "manifest": "examples/production-fixture/variants/skill-slash/variant.json",
+      "motion_checksum": "8f3ecddc928749f345d06e211afa6504d4d500d3fe5d47ca3bb40878f8d63a92",
+      "sha256": "d43938e06dcf6eae38915d1295b1da4181645b15345eac59f664bdbbc994aba9",
+      "state": "READY",
+      "variant_id": "skill-slash",
+      "vfx_asset_checksum": "92eb12593dfdb1d83556622936032086db6ccbf9db459e709b704fcd49df8cb7"
+    },
+    {
+      "composite_checksum": "1111111111111111111111111111111111111111111111111111111111111111",
+      "manifest": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
+      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "sha256": "43a7f22555ab990ab0fe1cc2262b74ac8a8b88ff188730df207121b10bbb9756",
+      "state": "READY",
+      "variant_id": "variant-a",
+      "vfx_asset_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "composite_checksum": "2222222222222222222222222222222222222222222222222222222222222222",
+      "manifest": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
+      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "sha256": "50784aef60d4d870010b8afdf65690b59f3dba97870e8cd5a11d6e786fb27cfe",
+      "state": "READY",
+      "variant_id": "variant-b",
+      "vfx_asset_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ]
+}
