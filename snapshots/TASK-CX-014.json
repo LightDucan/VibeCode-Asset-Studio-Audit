@@ -1,0 +1,178 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
+      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
+    },
+    {
+      "path": "examples/background-removal-fixture/11_png_sequence_export/export.json",
+      "sha256": "564ac840c32c4d544da237b18b573d1f5cff7e796a89e5b726697430241a70fd"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/composite/composite.json",
+      "sha256": "a65b4d80f3d7da1573b17846719ac9ead2d902834d1cab48e76b6602b39dcf8a"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/overlay.json",
+      "sha256": "d1c3bda5645587f962600fd3874436e9b3d50cfca300b6eba43a1ed6eac0cfde"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
+      "sha256": "af4c85f66b757ffc402a2ee9e0704faa6ded63b42865d3d2edd9c7437b02d148"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
+      "sha256": "8017bb81eac651dcd19ee6218b8e6f727d1ddc27a9e64a35024bcd05cbba038e"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
+      "sha256": "9bfa0b79c8775ed3eec0962dc63b60f8ce5b6ff8357151ab2ed905107d7d0e6d"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/extracted/extraction.json",
+      "sha256": "e069a8977b9da1294abef9fe0c5fd5e621cc7d14c0702a394ae6cb6e6547fad9"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/intake/source.json",
+      "sha256": "71e118e2a37add23f1a01d467e6a6c1c11f9eb4744db9a7e2328b857f849b986"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
+      "sha256": "2e8848085d1aa361af6d7eff2822fee3064cdc64d506490d902dacfea2fec946"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/index.json",
+      "sha256": "253d89de6826703788c26a2442cd1a764083dced5acf3e26cff995af662a75c0"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
+      "sha256": "62e17500f66f5459b3d9bd559f6b400e630efa1f9aee2b981664074f886ef7ac"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "d776e71f930cc9f174cb51fb9daf093a4d7ff46e",
+  "branch": "codex/task-cx-014-vfx-asset-library",
+  "changed_files": [
+    "docs/tasks/TASK-CX-014.md",
+    "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
+    "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
+    "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
+    "examples/qa-multi-frame-vfx/vfx_library/index.json",
+    "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_vfx_asset_library.py",
+    "vibecode/services/vfx_asset_library.py",
+    "vibecode/vfx_library_workspace.py"
+  ],
+  "commit_sha": "1b09829f058e44d54fbc034735f84a4f584ee6d8",
+  "diff_stat": {
+    "deletions": 1,
+    "files": 10,
+    "insertions": 297
+  },
+  "exported_png_artifacts": [
+    {
+      "first": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/11_png_sequence_export/export.json"
+    }
+  ],
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-014",
+  "tests": {
+    "failed": 0,
+    "passed": 133,
+    "total": 133
+  },
+  "vfx_asset_library_artifacts": [
+    {
+      "asset_id": "directional-line-v1",
+      "content_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "frame_count": 3,
+      "manifest": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
+      "sha256": "2e8848085d1aa361af6d7eff2822fee3064cdc64d506490d902dacfea2fec946",
+      "version": "1"
+    },
+    {
+      "asset_id": "triple-line-v1",
+      "content_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "frame_count": 3,
+      "manifest": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
+      "sha256": "62e17500f66f5459b3d9bd559f6b400e630efa1f9aee2b981664074f886ef7ac",
+      "version": "1"
+    }
+  ],
+  "vfx_composite_artifacts": [
+    {
+      "first": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/vfx/composite/composite.json"
+    }
+  ],
+  "vfx_curation_artifacts": [
+    {
+      "first": {
+        "path": "vfx/extracted/frames/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "last": {
+        "path": "vfx/extracted/frames/frame_000003.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
+      "selection_count": 3
+    }
+  ],
+  "vfx_variant_artifacts": [
+    {
+      "composite_checksum": "1111111111111111111111111111111111111111111111111111111111111111",
+      "manifest": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
+      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "sha256": "af4c85f66b757ffc402a2ee9e0704faa6ded63b42865d3d2edd9c7437b02d148",
+      "state": "READY",
+      "variant_id": "variant-a",
+      "vfx_asset_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "composite_checksum": "2222222222222222222222222222222222222222222222222222222222222222",
+      "manifest": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
+      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "sha256": "8017bb81eac651dcd19ee6218b8e6f727d1ddc27a9e64a35024bcd05cbba038e",
+      "state": "READY",
+      "variant_id": "variant-b",
+      "vfx_asset_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ]
+}
