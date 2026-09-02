@@ -1,0 +1,72 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
+      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
+    },
+    {
+      "path": "examples/background-removal-fixture/11_png_sequence_export/export.json",
+      "sha256": "564ac840c32c4d544da237b18b573d1f5cff7e796a89e5b726697430241a70fd"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "32a32b899454de4f6211f8c3407ea4c9d2baef1d",
+  "branch": "codex/task-cx-011-png-sequence-export",
+  "changed_files": [
+    "docs/tasks/TASK-CX-011.md",
+    "examples/background-removal-fixture/11_png_sequence_export/export.json",
+    "examples/background-removal-fixture/11_png_sequence_export/png/frame_000001.png",
+    "scripts/export_audit_snapshot.py",
+    "tests/test_vibecode_png_export.py",
+    "vibecode/export_workspace.py",
+    "vibecode/models/__init__.py",
+    "vibecode/models/export.py",
+    "vibecode/pipeline/registry.py",
+    "vibecode/services/png_sequence_export.py"
+  ],
+  "commit_sha": "ab70e751a687276a6ec6224735058797acd2821f",
+  "diff_stat": {
+    "deletions": 2,
+    "files": 10,
+    "insertions": 233
+  },
+  "exported_png_artifacts": [
+    {
+      "first": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/11_png_sequence_export/export.json"
+    }
+  ],
+  "known_limitations": [],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_QA",
+  "task_id": "TASK-CX-011",
+  "tests": {
+    "failed": 0,
+    "passed": 114,
+    "total": 114
+  }
+}
