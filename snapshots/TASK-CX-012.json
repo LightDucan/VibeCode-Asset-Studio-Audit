@@ -46,11 +46,11 @@
     "vibecode/services/vfx_overlay.py",
     "vibecode/vfx_overlay_workspace.py"
   ],
-  "commit_sha": "3ae5023cd8589ef7e1b5ee297d98ea2bb790d55c",
+  "commit_sha": "8d7b04f3b2badb23b84f6baf4120e5d9098f3b58",
   "diff_stat": {
     "deletions": 1,
     "files": 9,
-    "insertions": 390
+    "insertions": 397
   },
   "exported_png_artifacts": [
     {
