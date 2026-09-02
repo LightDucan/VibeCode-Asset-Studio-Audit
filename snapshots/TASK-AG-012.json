@@ -1,0 +1,124 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
+      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
+    },
+    {
+      "path": "examples/background-removal-fixture/11_png_sequence_export/export.json",
+      "sha256": "564ac840c32c4d544da237b18b573d1f5cff7e796a89e5b726697430241a70fd"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/composite/composite.json",
+      "sha256": "a65b4d80f3d7da1573b17846719ac9ead2d902834d1cab48e76b6602b39dcf8a"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/overlay.json",
+      "sha256": "d1c3bda5645587f962600fd3874436e9b3d50cfca300b6eba43a1ed6eac0cfde"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/composite/composite.json",
+      "sha256": "d651c2074ef8170660fd59d2ec1697337b26d671efdf9e9da5dd0ec82af40f2e"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/overlay.json",
+      "sha256": "2afd19fae32d036a14aa3dfd0830157ec3f7d92a8e1876c808360a7e68364906"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    }
+  ],
+  "base_sha": "d4c4b22058a9e18709ba3284f9d0d4e388a8e769",
+  "branch": "codex/task-ag-012-qa",
+  "changed_files": [
+    "docs/qa/TASK-AG-012.md",
+    "examples/qa-multi-frame-vfx/vfx/alpha/frame_000001.png",
+    "examples/qa-multi-frame-vfx/vfx/alpha/frame_000002.png",
+    "examples/qa-multi-frame-vfx/vfx/alpha/frame_000003.png",
+    "examples/qa-multi-frame-vfx/vfx/alpha/overlay.json",
+    "examples/qa-multi-frame-vfx/vfx/composite/composite.json",
+    "examples/qa-multi-frame-vfx/vfx/composite/png/frame_000001.png",
+    "examples/qa-multi-frame-vfx/vfx/composite/png/frame_000002.png",
+    "examples/qa-multi-frame-vfx/vfx/composite/png/frame_000003.png",
+    "examples/qa-multi-frame-vfx/vfx/overlay.json"
+  ],
+  "commit_sha": "f73bc6f834ecf44e02021d26c41cfbb195625fdb",
+  "diff_stat": {
+    "deletions": 0,
+    "files": 10,
+    "insertions": 391
+  },
+  "exported_png_artifacts": [
+    {
+      "first": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/11_png_sequence_export/export.json"
+    }
+  ],
+  "implementation_sha_tested": "d4c4b22058a9e18709ba3284f9d0d4e388a8e769",
+  "issue_severity_summary": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  },
+  "known_limitations": [],
+  "qa_commit": null,
+  "qa_result": "PASS",
+  "qa_status": "PASS",
+  "recommendation": "READY_FOR_CHATGPT_GATE_12_DECISION",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_AUDIT",
+  "task_id": "TASK-AG-012",
+  "tests": {
+    "failed": 0,
+    "passed": 120,
+    "total": 120
+  },
+  "vfx_composite_artifacts": [
+    {
+      "first": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/vfx/composite/composite.json"
+    },
+    {
+      "first": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "138946a430f99e856e5150598bbbe6dfbb5a68a2eea2e2a1a79584add3519fa3"
+      },
+      "frame_count": 3,
+      "last": {
+        "path": "vfx/composite/png/frame_000003.png",
+        "sha256": "621b50c2680964c1672d0554c85c2bdf65f0ff2eed25f50c8640bf8e666ef137"
+      },
+      "manifest": "examples/qa-multi-frame-vfx/vfx/composite/composite.json"
+    }
+  ]
+}
