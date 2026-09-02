@@ -84,7 +84,7 @@
     "vibecode/production_workspace.py",
     "vibecode/services/production_orchestrator.py"
   ],
-  "commit_sha": "98379658f040dda1abdb771e84e4a0de6352f9da",
+  "commit_sha": "96838536f97b93103be9b9cc798cf5f7b045fa3a",
   "diff_stat": {
     "deletions": 1,
     "files": 7,
