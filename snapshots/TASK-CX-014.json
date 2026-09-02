@@ -79,11 +79,11 @@
     "vibecode/services/vfx_asset_library.py",
     "vibecode/vfx_library_workspace.py"
   ],
-  "commit_sha": "1b09829f058e44d54fbc034735f84a4f584ee6d8",
+  "commit_sha": "0b2eeb0080e4d8410d8f61a33ca434c1c1ed8c49",
   "diff_stat": {
     "deletions": 1,
     "files": 10,
-    "insertions": 297
+    "insertions": 305
   },
   "exported_png_artifacts": [
     {

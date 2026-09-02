@@ -5,7 +5,7 @@ STATUS: READY_FOR_QA
 Task: TASK-CX-014
 Branch: `codex/task-cx-014-vfx-asset-library`
 BASE: `d776e71f930cc9f174cb51fb9daf093a4d7ff46e`
-Implementation Commit: `ef6b574dced8f4c194c36359630b5de47564240b`
+Implementation Commit: `d216b32d8a6806b4e3843e65e7e7320475437c69`
 
 ## Scope
 
