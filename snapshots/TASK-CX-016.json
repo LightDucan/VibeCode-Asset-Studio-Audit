@@ -2,7 +2,7 @@
   "artifacts": [
     {
       "path": "production_sources/trung-nhi/production.json",
-      "sha256": "1351301b7fe51aa17a75a9c9778bb360d36724d7650f80b9139eba0f88ad8f1d"
+      "sha256": "a3bb8b21f63785f51b31a4a513617b33498c577dc6f7615438ba97ef29b223fe"
     },
     {
       "path": "production_sources/trung-nhi/profile.json",
@@ -10,11 +10,11 @@
     },
     {
       "path": "production_sources/trung-nhi/source-map.json",
-      "sha256": "cb16d8ff1ed8a8f12868f07ea57de179dc682bdc6349bab7eb2b8524e70d39e0"
+      "sha256": "8cc019a57fd78e7306f0d527efa52f241b0841dce8a7cc61d1b357390ea10309"
     },
     {
       "path": "production_sources/trung-trac/production.json",
-      "sha256": "71d1c03528d240d4bf92c1af9f05ebfd8e3186e29e09422a9d503e3ca4df8988"
+      "sha256": "a49df515ec738c81e31ef3b98b1b374a26099212764f32bd35782a736885a3a7"
     },
     {
       "path": "production_sources/trung-trac/profile.json",
@@ -22,7 +22,7 @@
     },
     {
       "path": "production_sources/trung-trac/source-map.json",
-      "sha256": "4393815d6f49fb02e9408dedb7ea132a435a2d533dc5f4e974d3a35f5a3e0f6c"
+      "sha256": "0f06087d34f92d5de85e7ff20393665f8104abefc3e069207885ca0cb2cd333b"
     }
   ],
   "base_sha": "78ee4a400b786ad6ce93d8b0dd0899bffecc383c",
@@ -42,62 +42,90 @@
     "scripts/export_audit_snapshot.py",
     "tests/test_vibecode_golden_pilot.py"
   ],
-  "commit_sha": "2e17771cdc70dfb9f3b3a56c12203778bf6f5bc0",
+  "commit_sha": "5cd1732d6474df5960e03892f8fe36bd6c3165e0",
   "diff_stat": {
     "deletions": 51,
     "files": 13,
-    "insertions": 497
+    "insertions": 553
   },
   "exported_png_artifacts": [],
   "golden_pilot_characters": [
     {
       "basic_motion": {
-        "current_stage": "action_video_generation",
-        "duration": null,
+        "current_stage": "frame_review",
+        "duration": 10.01,
+        "fps": 24.0,
+        "frame_count": 240,
+        "frame_review_status": "NEEDS_REVIEW",
+        "height": 720,
         "source_alias": "TRUNG_NHI_BASIC_CROSSBOW",
-        "source_sha256": null,
-        "status": "BLOCKED_ASSET_INPUT"
+        "source_path": "production_sources/trung-nhi/media/basic_attack/1000052543.mp4",
+        "source_sha256": "9294017851696c0db7c327e582705170c0be05405a1a50fde36e855f0458509a",
+        "status": "NEEDS_REVIEW",
+        "width": 1280
       },
       "character_id": "trung-nhi",
       "next_actions": [
-        "PROVIDE_BASIC_ATTACK_VIDEO"
+        "REVIEW_BASIC_ATTACK_FRAMES",
+        "REVIEW_VFX_CURATION"
       ],
-      "production_state": "BLOCKED_ASSET_INPUT",
+      "production_state": "READY_FOR_VISUAL_REVIEW",
       "profile_checksum": "4b406b7503bb552fd0398fa553624d52dbb4243dcaff387408df24b84fc6a145",
       "schema_version": "1.0",
       "stage": "character_production_pilot",
       "vfx": {
         "anchor": "MUZZLE",
+        "duration": 10.01,
+        "fps": 24.0,
+        "frame_count": 240,
+        "height": 720,
         "logical_identity": "TRIPLE_LINE_PRECISION",
-        "source_sha256": "cbb29b2f8ccdd373735341eccb26a2e66b1798cf8cecf4c86a76d6f2014c9e95",
-        "status": "NEEDS_REVIEW"
+        "review_status": "NEEDS_REVIEW",
+        "source_path": "production_sources/trung-nhi/media/vfx/1000052538.mp4",
+        "source_sha256": "33f15289414f9fc42eaad665aeeb996c4ad517d4c818ae6d25d9ae97e17775b7",
+        "status": "NEEDS_REVIEW",
+        "width": 1280
       }
     },
     {
       "basic_motion": {
-        "current_stage": "action_video_generation",
-        "duration": null,
+        "current_stage": "frame_review",
+        "duration": 10.01,
+        "fps": 24.0,
+        "frame_count": 240,
+        "frame_review_status": "NEEDS_REVIEW",
+        "height": 720,
         "source_alias": "TIMING_PRIORITY_BASIC_THRUST",
-        "source_sha256": null,
-        "status": "BLOCKED_ASSET_INPUT"
+        "source_path": "production_sources/trung-trac/media/basic_attack/TIMING_PRIORITY___The_entire_a.mp4",
+        "source_sha256": "e503167926b4f0cb5efc693a35457d56a6e0ad3c116b52474806a7e38fb730cb",
+        "status": "NEEDS_REVIEW",
+        "width": 1280
       },
       "character_id": "trung-trac",
       "next_actions": [
-        "PROVIDE_BASIC_ATTACK_VIDEO"
+        "REVIEW_BASIC_ATTACK_FRAMES",
+        "REVIEW_VFX_CURATION"
       ],
-      "production_state": "BLOCKED_ASSET_INPUT",
+      "production_state": "READY_FOR_VISUAL_REVIEW",
       "profile_checksum": "2baf60b9ed21ff8303700c6ac0610a2c7648bd5a1af06f39a7e540a636b4942f",
       "schema_version": "1.0",
       "stage": "character_production_pilot",
       "vfx": {
         "anchor": "WEAPON_TIP",
+        "duration": 10.01,
+        "fps": 24.0,
+        "frame_count": 240,
+        "height": 720,
         "logical_identity": "LONG_THUONG_PHA_TRAN",
-        "source_sha256": "92eb12593dfdb1d83556622936032086db6ccbf9db459e709b704fcd49df8cb7",
-        "status": "NEEDS_REVIEW"
+        "review_status": "NEEDS_REVIEW",
+        "source_path": "production_sources/trung-trac/media/vfx/1000052536.mp4",
+        "source_sha256": "3916b2fd49e1e3211691d2178fbc6a5c3e684339eba9722d7602ef53ce57d16f",
+        "status": "NEEDS_REVIEW",
+        "width": 1280
       }
     }
   ],
-  "implementation_sha_tested": "e2e34a20d267fc4c2ad4e413fc21749934c734f1",
+  "implementation_sha_tested": "6b4ecf45a0ede338f7132d69ee9c9b5117388365",
   "known_limitations": [],
   "production_artifacts": [],
   "qa_status": "PASS_WITH_NOTES",
@@ -106,8 +134,8 @@
   "task_id": "TASK-CX-016",
   "tests": {
     "failed": 0,
-    "passed": 151,
-    "total": 151
+    "passed": 152,
+    "total": 152
   },
   "vfx_asset_library_artifacts": [],
   "vfx_composite_artifacts": [],

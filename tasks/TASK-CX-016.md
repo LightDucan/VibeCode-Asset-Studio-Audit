@@ -4,7 +4,7 @@ STATUS: READY_FOR_QA
 
 Base commit: `78ee4a400b786ad6ce93d8b0dd0899bffecc383c`
 Branch: `codex/task-cx-016-golden-production-pilot`
-Integration Implementation SHA: `e2e34a20d267fc4c2ad4e413fc21749934c734f1`
+Integration Implementation SHA: `6b4ecf45a0ede338f7132d69ee9c9b5117388365`
 
 ## Phase 0: Gate 15 Acceptance Record
 
@@ -41,16 +41,20 @@ This task establishes canonical character profiles, source-map registries, logic
 - **Basic Motion**:
   - Logical Source Alias: `TIMING_PRIORITY_BASIC_THRUST`
   - Candidate Hint: `TIMING_PRIORITY___The_entire_a.mp4`
-  - Motion Status: `BLOCKED_ASSET_INPUT` (No guessed disk search; awaiting explicit user input mapping)
-  - Motion Advisory: Approx. 10–14 useful frames (`READY`, `ANTICIPATION`, `THRUST`, `PEAK`, `RECOIL`, `RECOVERY`)
+  - Motion Source: `production_sources/trung-trac/media/basic_attack/TIMING_PRIORITY___The_entire_a.mp4`
+  - Motion SHA256: `e503167926b4f0cb5efc693a35457d56a6e0ad3c116b52474806a7e38fb730cb`
+  - Motion Probe: 1280 × 720, 24 fps, 10.01 s, 240 frames
+  - Motion Status: `NEEDS_REVIEW` (full extraction prepared; human frame review pending)
 - **VFX Binding**:
   - Logical Identity: `LONG_THUONG_PHA_TRAN`
   - Effect Type: `DIRECTIONAL` / `PIERCE`
   - Anchor: `WEAPON_TIP`
   - Status: `NEEDS_REVIEW`
-  - VFX Content SHA256: `92eb12593dfdb1d83556622936032086db6ccbf9db459e709b704fcd49df8cb7`
-- **Production State**: `BLOCKED_ASSET_INPUT`
-- **Next Actions**: `PROVIDE_BASIC_ATTACK_VIDEO`
+  - VFX Source: `production_sources/trung-trac/media/vfx/1000052536.mp4`
+  - VFX Content SHA256: `3916b2fd49e1e3211691d2178fbc6a5c3e684339eba9722d7602ef53ce57d16f`
+  - VFX Probe: 1280 × 720, 24 fps, 10.01 s, 240 frames
+- **Production State**: `READY_FOR_VISUAL_REVIEW`
+- **Next Actions**: `REVIEW_BASIC_ATTACK_FRAMES`, `REVIEW_VFX_CURATION`
 
 ### 2. Trưng Nhị (`trung-nhi`)
 
@@ -64,40 +68,45 @@ This task establishes canonical character profiles, source-map registries, logic
 - **Basic Motion**:
   - Logical Source Alias: `TRUNG_NHI_BASIC_CROSSBOW`
   - Candidate Hint: `1000052543.mp4`
-  - Motion Status: `BLOCKED_ASSET_INPUT` (No guessed disk search; awaiting explicit user input mapping)
-  - Motion Advisory: Approx. 9–12 useful frames (`READY`, `AIM`, `PRE-FIRE`, `FIRE`, `RECOIL`, `RECOVERY`)
+  - Motion Source: `production_sources/trung-nhi/media/basic_attack/1000052543.mp4`
+  - Motion SHA256: `9294017851696c0db7c327e582705170c0be05405a1a50fde36e855f0458509a`
+  - Motion Probe: 1280 × 720, 24 fps, 10.01 s, 240 frames
+  - Motion Status: `NEEDS_REVIEW` (full extraction prepared; human frame review pending)
 - **VFX Binding**:
   - Logical Identity: `TRIPLE_LINE_PRECISION`
   - Effect Type: `DIRECTIONAL` / `BURST`
   - Anchor: `MUZZLE`
   - Status: `NEEDS_REVIEW`
-  - VFX Content SHA256: `cbb29b2f8ccdd373735341eccb26a2e66b1798cf8cecf4c86a76d6f2014c9e95`
-- **Production State**: `BLOCKED_ASSET_INPUT`
-- **Next Actions**: `PROVIDE_BASIC_ATTACK_VIDEO`
+  - VFX Source: `production_sources/trung-nhi/media/vfx/1000052538.mp4`
+  - VFX Content SHA256: `33f15289414f9fc42eaad665aeeb996c4ad517d4c818ae6d25d9ae97e17775b7`
+  - VFX Probe: 1280 × 720, 24 fps, 10.01 s, 240 frames
+- **Production State**: `READY_FOR_VISUAL_REVIEW`
+- **Next Actions**: `REVIEW_BASIC_ATTACK_FRAMES`, `REVIEW_VFX_CURATION`
 
 ---
 
-## Missing Asset Inputs
+## Media Map and Human Review Boundary
 
-- **`TRUNG_TRAC_BASIC_MOTION`**: Source video `TIMING_PRIORITY___The_entire_a.mp4` / `TIMING_PRIORITY_BASIC_THRUST` not mapped. Recorded fail-closed as `BLOCKED_ASSET_INPUT`.
-- **`TRUNG_NHI_BASIC_CROSSBOW`**: Source video `1000052543.mp4` / `TRUNG_NHI_BASIC_CROSSBOW` not mapped. Recorded fail-closed as `BLOCKED_ASSET_INPUT`.
+The four explicitly provided project-owned media files are mapped by logical identity and verified against their byte SHA256. Both BASIC_ATTACK videos completed Step-03 validation and full Step-04 extraction (240 decoded frames each); Frame Review remains `NEEDS_REVIEW`. Both VFX videos completed intake and bounded extraction for review; VFX Review/Curation remains `NEEDS_REVIEW`. No frame was auto-selected, no VFX was auto-curated, no timing was confirmed, and no anchor/composite was approved.
+
+The next human reviews are `REVIEW_BASIC_ATTACK_FRAMES` and `REVIEW_VFX_CURATION` for each character. Source files remained byte-identical throughout validation and extraction.
 
 ---
 
 ## Technical & Safety Verifications
 
 1. **Originals Immutable**: Verified byte-identical SHA256 before and after for all canonical references (`trung-trac`, `trung-nhi`, `le-chan`).
-2. **Explicit Source Mapping Only**: Zero recursive drive scanning or guessed filesystem traversals. Sources resolved only through explicit `production_sources/**/source-map.json`.
+2. **Explicit Source Mapping Only**: Zero recursive drive scanning or guessed filesystem traversals. Sources resolved only through the four explicit project-relative media paths.
 3. **No Public Asset Leak**: Verified that public snapshots contain zero absolute local filesystem paths, zero binary image bytes, and only sanitized relative metadata.
 4. **Real Checksums**: Every checksum in profiles, source maps, and manifests is a computed SHA256. Zero sentinel placeholders (`aaaa...`, `bbbb...`).
 5. **Human Gate Enforcement**: Orchestration stops deterministically at human gates (`frame_review`, `frame_curation`, `vfx_source_curation`). Never auto-approves.
 6. **Cross-Character Isolation**: Modifying Trưng Trắc leaves Trưng Nhị manifest and artifact hashes completely unchanged, and vice versa.
 7. **Interruption Safety**: Simulated staging interruption leaves previously accepted outputs and source files intact.
-8. **Regression Suite**: 150 / 150 unit tests passing (0 failures).
+8. **Regression Suite**: 152 / 152 unit tests passing (0 failures).
 
-## Fail-Closed Pilot State
+## Mapped Pilot State
 
-Both required BASIC_ATTACK sources remain unmapped. Each Character therefore stays `BLOCKED_ASSET_INPUT`; the only valid next action is `PROVIDE_BASIC_ATTACK_VIDEO`. Frame review is not advertised until extraction/review artifacts exist. VFX preparation remains independently `NEEDS_REVIEW` with its real content SHA and anchor identity.
+Both required BASIC_ATTACK sources are now explicitly mapped and checksum-verified. Each Character is `READY_FOR_VISUAL_REVIEW`; motion frame review and VFX review/curation remain independent human gates with `NEEDS_REVIEW` status. No frame, timing, anchor, or composite was auto-approved.
 
 ## Issue Severity Summary
 - P0: 0
