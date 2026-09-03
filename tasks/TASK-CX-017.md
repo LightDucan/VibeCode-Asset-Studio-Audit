@@ -4,8 +4,8 @@ STATUS: READY_FOR_QA
 
 Base commit: `182debc04d534e2b5038d7e488ac749f27085a66`
 Branch: `codex/task-cx-017-golden-timing-vfx-binding`
-Implementation Commit: `de39d08059346eac64e74b972fcbcec6554c778f`
-Integration Implementation SHA: `de39d08059346eac64e74b972fcbcec6554c778f`
+Implementation Commit: `323d53a1e80d9e20b7369648453419ba31f5df2a`
+Integration Implementation SHA: `323d53a1e80d9e20b7369648453419ba31f5df2a`
 
 ## Phase 0: Gate 16 Acceptance Record
 
