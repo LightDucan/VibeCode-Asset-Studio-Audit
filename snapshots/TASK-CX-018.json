@@ -1,76 +1,16 @@
 {
   "artifacts": [
     {
-      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
-      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+      "path": "production_sources/trung-nhi/05_review/review.json",
+      "sha256": "ebe4abb15f91b1b20ebee405987e968ba662d108fc46d7237abf64576e6950bb"
     },
     {
-      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
-      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+      "path": "production_sources/trung-nhi/06_curation/curation.json",
+      "sha256": "00f8b90ab9040dd4960c3fc87ba2f9407dff0472b069e54c9006f512e4bf1d64"
     },
     {
-      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
-      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
-    },
-    {
-      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
-      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
-    },
-    {
-      "path": "examples/background-removal-fixture/11_png_sequence_export/export.json",
-      "sha256": "564ac840c32c4d544da237b18b573d1f5cff7e796a89e5b726697430241a70fd"
-    },
-    {
-      "path": "examples/background-removal-fixture/vfx/composite/composite.json",
-      "sha256": "a65b4d80f3d7da1573b17846719ac9ead2d902834d1cab48e76b6602b39dcf8a"
-    },
-    {
-      "path": "examples/background-removal-fixture/vfx/overlay.json",
-      "sha256": "d1c3bda5645587f962600fd3874436e9b3d50cfca300b6eba43a1ed6eac0cfde"
-    },
-    {
-      "path": "examples/production-fixture/production/action_pack.json",
-      "sha256": "0eb7e944bd8c2c5bd7d5d9954aca004dc94cf7a9ff710e8fad851e3021675759"
-    },
-    {
-      "path": "examples/production-fixture/production/character.json",
-      "sha256": "a520538876ce8ee8f5b9fae6c2d4c294c649d626ea9b7559582fd2e81c5d56c5"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
-      "sha256": "43a7f22555ab990ab0fe1cc2262b74ac8a8b88ff188730df207121b10bbb9756"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
-      "sha256": "50784aef60d4d870010b8afdf65690b59f3dba97870e8cd5a11d6e786fb27cfe"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
-      "sha256": "9bfa0b79c8775ed3eec0962dc63b60f8ce5b6ff8357151ab2ed905107d7d0e6d"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/vfx/extracted/extraction.json",
-      "sha256": "e069a8977b9da1294abef9fe0c5fd5e621cc7d14c0702a394ae6cb6e6547fad9"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/vfx/intake/source.json",
-      "sha256": "71e118e2a37add23f1a01d467e6a6c1c11f9eb4744db9a7e2328b857f849b986"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
-      "sha256": "e7d079cb24454176becf31df81a86b453cf5a3acb4efac316bd18f8dd52f8a82"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/vfx_library/index.json",
-      "sha256": "4cdca76bebed18db990ec3b78ddc454f785ff405520b5b017434317d48413a14"
-    },
-    {
-      "path": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
-      "sha256": "57864b06f32e94aedad4c528e32d8eaab70b9c44b3b06ba5f4cd8a011eb5ae2d"
-    },
-    {
-      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
-      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+      "path": "production_sources/trung-nhi/composite/composite.json",
+      "sha256": "4d63c1846c97b1b6c761d00ec9d056eac74be6768f381664e9e5e192d115b860"
     },
     {
       "path": "production_sources/trung-nhi/production.json",
@@ -85,6 +25,38 @@
       "sha256": "f6dae6b6ea72172120f4d91498027b226f947604c91807a41e108180250785b1"
     },
     {
+      "path": "production_sources/trung-nhi/timing/preview.json",
+      "sha256": "506b6a776f2e2b5ba3f38d2ab661c46f825974904b62eb78a74150fa697e1666"
+    },
+    {
+      "path": "production_sources/trung-nhi/timing/timing.json",
+      "sha256": "b9c33b9a3b29cd58049de3e01fec7ed7e365865785905a52ba656dbdfbd0cdb0"
+    },
+    {
+      "path": "production_sources/trung-nhi/vfx/alpha/overlay.json",
+      "sha256": "48d49940a6e624ddf4a9b0396a38473f3678c4817b1d578b176c701dca46711e"
+    },
+    {
+      "path": "production_sources/trung-nhi/vfx/binding/variant.json",
+      "sha256": "17c425742070560dbf434de563d43d1cccfb27279ca6f4abfb23f5225d39b170"
+    },
+    {
+      "path": "production_sources/trung-nhi/vfx/curation/curation.json",
+      "sha256": "a9d63fec110de56f0f677448405b497a375f6a72eb9ea80e7d18149977a8c3ed"
+    },
+    {
+      "path": "production_sources/trung-trac/05_review/review.json",
+      "sha256": "82e2568968790b69d3f8cdec183ba8669cc171d0441d2615e5f1cf4b6bfdfcf4"
+    },
+    {
+      "path": "production_sources/trung-trac/06_curation/curation.json",
+      "sha256": "dba091d8b03ead41b61d8380f4adc01f0c6a24aeb6bf5d3bdfa5d587616dba44"
+    },
+    {
+      "path": "production_sources/trung-trac/composite/composite.json",
+      "sha256": "bbd23b8c8e35525b79b7ab12cdc04c6112d94dc1f1cce25fc440ed3ee2cf2581"
+    },
+    {
       "path": "production_sources/trung-trac/production.json",
       "sha256": "7164862c0737dd5150209ced4ea0ebf72bb5ee9440a731af429e52b3f2bc8610"
     },
@@ -95,146 +67,351 @@
     {
       "path": "production_sources/trung-trac/source-map.json",
       "sha256": "3bdff36f3b0c0f96dafc26efef605ebb00d08a0790867d1b40ac7c3c3fe17fc1"
+    },
+    {
+      "path": "production_sources/trung-trac/timing/preview.json",
+      "sha256": "369a137e242a5c3e7d9f6acd5449c60ef09fae6c67f057b9f000c6ac472f6e55"
+    },
+    {
+      "path": "production_sources/trung-trac/timing/timing.json",
+      "sha256": "95d47c360496cfa217a5aca0f28c2dce618f4ddf9ce53e53df7fe741393c0fbe"
+    },
+    {
+      "path": "production_sources/trung-trac/vfx/alpha/overlay.json",
+      "sha256": "9d945a2f6abf75e0621985920f097d54e52fded31e6bd9f0fab753db6b9f2995"
+    },
+    {
+      "path": "production_sources/trung-trac/vfx/binding/variant.json",
+      "sha256": "bf35731c1ce750993def1e84d7aed08d782fabb4cb64ed0de336c28a47e8447b"
+    },
+    {
+      "path": "production_sources/trung-trac/vfx/curation/curation.json",
+      "sha256": "ad8e952f94967d4aa563d7f31b06f53c48a31da9d88d3bf2506961f9d31a0c69"
+    },
+    {
+      "path": "production_sources/vfx_library/LONG_THUONG_PHA_TRAN/1/asset.json",
+      "sha256": "08ae48e2da34f76de9d65d5f7f6295d073a8cfc2e8e470238fba15d5321383d6"
+    },
+    {
+      "path": "production_sources/vfx_library/TRIPLE_LINE_PRECISION/1/asset.json",
+      "sha256": "58e22de1119bc1de95b78a69c1f37b2200c67aac8b7c2cbe51332e8ac41ca5d0"
     }
   ],
   "base_sha": "773256025fe97e489a3dba88e37265b18de4f283",
   "branch": "codex/task-cx-018-runtime-export-pack",
   "changed_files": [
+    "docs/tasks/TASK-CX-018.md",
+    "scripts/export_audit_snapshot.py",
     "tests/test_vibecode_runtime_export.py",
     "vibecode/services/runtime_export.py"
   ],
-  "commit_sha": "fd4a30e98ea1afa91fdd0d286d9407d40310d928",
+  "commit_sha": "be40f6636ed188cf2b04d71886f41a6b51f68437",
   "diff_stat": {
-    "deletions": 0,
-    "files": 2,
-    "insertions": 266
+    "deletions": 1,
+    "files": 4,
+    "insertions": 305
   },
-  "exported_png_artifacts": [
-    {
-      "first": {
-        "path": null,
-        "sha256": null
-      },
-      "frame_count": 1,
-      "last": {
-        "path": null,
-        "sha256": null
-      },
-      "manifest": "examples/background-removal-fixture/11_png_sequence_export/export.json"
-    }
-  ],
+  "exported_png_artifacts": [],
   "golden_pilot_characters": [
     {
-      "animation_timing_status": "NEEDS_REVIEW",
+      "animation_timing": {
+        "fps_den": 1,
+        "fps_num": 18,
+        "fps_rational": "18/1",
+        "hold_semantics": "logical hold_ticks; no duplicated PNG frames",
+        "manifest": "production_sources/trung-nhi/timing/timing.json",
+        "manifest_sha256": "b9c33b9a3b29cd58049de3e01fec7ed7e365865785905a52ba656dbdfbd0cdb0",
+        "phase_labels": [
+          "READY",
+          "AIM",
+          "PRE-FIRE",
+          "FIRE",
+          "RECOIL",
+          "RECOVERY"
+        ],
+        "preview_manifest": "production_sources/trung-nhi/timing/preview.json",
+        "preview_sha256": "506b6a776f2e2b5ba3f38d2ab661c46f825974904b62eb78a74150fa697e1666",
+        "status": "ACCEPTED",
+        "timestamp_convention": {
+          "pts": "integer stream time-base units; retained verbatim when available",
+          "selected_identity": "source_frame_index plus source_frame_sha256 are authoritative",
+          "source_frame_index": "1-based decoded frame ordinal; identity authority",
+          "timestamp": "seconds from source presentation timeline, derived from PTS"
+        },
+        "total_ticks": 11
+      },
       "basic_motion": {
-        "advisory": "approx. 9-12 useful frames (READY, AIM, PRE-FIRE, FIRE, RECOIL, RECOVERY)",
-        "current_stage": "frame_review",
+        "curation_manifest": "production_sources/trung-nhi/06_curation/curation.json",
+        "curation_manifest_sha256": "00f8b90ab9040dd4960c3fc87ba2f9407dff0472b069e54c9006f512e4bf1d64",
+        "current_stage": "animation_timing",
+        "drop_count": 229,
         "duration": 10.01,
+        "extracted_frame_count": 240,
+        "first_selected": {
+          "frame_index": 20,
+          "phase": "READY",
+          "sha256": "e98cb4e485120de383c0317ebc7f1d124d1a103f2d00970738a950c747d4e754",
+          "timestamp": 0.791667
+        },
         "fps": 24.0,
-        "frame_count": 240,
-        "frame_review_status": "NEEDS_REVIEW",
+        "frame_curation_status": "ACCEPTED",
+        "frame_review_status": "ACCEPTED",
         "height": 720,
-        "hint_filename": "1000052543.mp4",
+        "keep_count": 11,
+        "last_selected": {
+          "frame_index": 56,
+          "phase": "RETURN_STANCE",
+          "sha256": "fbf18da3de13a6e040eea3393705e7990ebcf823d437919b3e13fa0369f029a2",
+          "timestamp": 2.291667
+        },
+        "peak_selected": {
+          "frame_index": 38,
+          "phase": "FIRE",
+          "sha256": "54cae26806e323d2ebf276228e78530b5aca812bfcc98b8eb6eedd628309695f",
+          "timestamp": 1.541667
+        },
+        "selected_frame_count": 11,
         "source_alias": "TRUNG_NHI_BASIC_CROSSBOW",
         "source_path": "production_sources/trung-nhi/media/basic_attack/1000052543.mp4",
         "source_sha256": "9294017851696c0db7c327e582705170c0be05405a1a50fde36e855f0458509a",
-        "status": "NEEDS_REVIEW",
+        "status": "ACCEPTED",
         "width": 1280
       },
-      "canonical_image_checksum": "e05af1093d0e6c8cb3cbf5715dd34ec881e6cd8a67804577050287006288c22c",
       "character_id": "trung-nhi",
-      "composite_status": "NEEDS_REVIEW",
-      "display_name": "Trưng Nhị",
+      "composite": {
+        "first_sha256": "037011682d4029a5b67e574ae4695257b2b9428f373166f9bc4629960a56091c",
+        "last_sha256": "a00e6308a3d842ce0c60cd3bc1aa756107ca7d42305961e58e4cc413616eaa39",
+        "manifest": "production_sources/trung-nhi/composite/composite.json",
+        "manifest_sha256": "4d63c1846c97b1b6c761d00ec9d056eac74be6768f381664e9e5e192d115b860",
+        "peak_sha256": "7754423a93a974011483123cbe7a7096d49b61f291aa76dd61161a633eef1caa",
+        "status": "ACCEPTED"
+      },
       "next_actions": [
-        "REVIEW_BASIC_ATTACK_FRAMES",
-        "REVIEW_VFX_CURATION"
+        "SPRITESHEET_EXPORT",
+        "RUNTIME_INTEGRATION"
       ],
-      "production_state": "READY_FOR_VISUAL_REVIEW",
+      "next_human_gate": "NONE",
+      "production_state": "PRODUCTION_READY",
       "profile_checksum": "4b406b7503bb552fd0398fa553624d52dbb4243dcaff387408df24b84fc6a145",
+      "schema_version": "1.0",
+      "stage": "character_production_pilot",
       "vfx": {
         "anchor": "MUZZLE",
-        "current_stage": "vfx_source_curation",
+        "curation_manifest": "production_sources/trung-nhi/vfx/curation/curation.json",
+        "curation_manifest_sha256": "a9d63fec110de56f0f677448405b497a375f6a72eb9ea80e7d18149977a8c3ed",
+        "curation_status": "ACCEPTED",
+        "current_stage": "vfx_asset_binding",
+        "drop_count": 228,
         "duration": 10.01,
         "effect_subtype": "BURST",
+        "extracted_frame_count": 240,
+        "first_selected": {
+          "frame_index": 14,
+          "phase_tag": "CHARGE",
+          "sha256": "bade6d0d6759325d4c449f172523a7f204613d362e9c28f5d8dc4125a87c3331",
+          "timestamp": 0.541667
+        },
         "fps": 24.0,
-        "frame_count": 240,
         "height": 720,
+        "keep_count": 12,
+        "last_selected": {
+          "frame_index": 36,
+          "phase_tag": "DISSIPATE",
+          "sha256": "1e71f23cd40be10959748a14d1fc2ff89ae48e0974cbd18a82dfb2c8bdbe9d83",
+          "timestamp": 1.458333
+        },
         "logical_identity": "TRIPLE_LINE_PRECISION",
-        "review_status": "NEEDS_REVIEW",
+        "peak_selected": {
+          "frame_index": 22,
+          "phase_tag": "PEAK",
+          "sha256": "1cf64e6a450a740dc0fcdde67409564f3800e648c094ac13d87e67678c17cb27",
+          "timestamp": 0.875
+        },
+        "review_status": "ACCEPTED",
+        "selected_frame_count": 12,
         "source_path": "production_sources/trung-nhi/media/vfx/1000052538.mp4",
         "source_sha256": "33f15289414f9fc42eaad665aeeb996c4ad517d4c818ae6d25d9ae97e17775b7",
-        "status": "NEEDS_REVIEW",
+        "status": "ACCEPTED",
         "type": "DIRECTIONAL",
         "width": 1280
       },
-      "vfx_binding_status": "NEEDS_REVIEW"
+      "vfx_asset": {
+        "alpha_manifest": "production_sources/trung-nhi/vfx/alpha/overlay.json",
+        "alpha_manifest_sha256": "48d49940a6e624ddf4a9b0396a38473f3678c4817b1d578b176c701dca46711e",
+        "asset_id": "TRIPLE_LINE_PRECISION",
+        "asset_version": "1",
+        "content_checksum": "e11c8fa8d070b8a63fcd3c977f2da30b8957c6a2765290fb899487e67cb2c363",
+        "curation_manifest_sha256": "a9d63fec110de56f0f677448405b497a375f6a72eb9ea80e7d18149977a8c3ed",
+        "status": "VALID"
+      },
+      "vfx_binding": {
+        "anchor_type": "MUZZLE",
+        "manifest": "production_sources/trung-nhi/vfx/binding/variant.json",
+        "manifest_sha256": "17c425742070560dbf434de563d43d1cccfb27279ca6f4abfb23f5225d39b170",
+        "status": "ACCEPTED",
+        "transform_candidate": {
+          "flip_x": true,
+          "flip_y": false,
+          "rotation_degrees": 0,
+          "translate_x": 0,
+          "translate_y": 0,
+          "uniform_scale": 1
+        }
+      }
     },
     {
-      "animation_timing_status": "NEEDS_REVIEW",
+      "animation_timing": {
+        "fps_den": 1,
+        "fps_num": 18,
+        "fps_rational": "18/1",
+        "hold_semantics": "logical hold_ticks; no duplicated PNG frames",
+        "manifest": "production_sources/trung-trac/timing/timing.json",
+        "manifest_sha256": "95d47c360496cfa217a5aca0f28c2dce618f4ddf9ce53e53df7fe741393c0fbe",
+        "phase_labels": [
+          "READY",
+          "ANTICIPATION",
+          "THRUST",
+          "PEAK",
+          "RECOIL",
+          "RECOVERY"
+        ],
+        "preview_manifest": "production_sources/trung-trac/timing/preview.json",
+        "preview_sha256": "369a137e242a5c3e7d9f6acd5449c60ef09fae6c67f057b9f000c6ac472f6e55",
+        "status": "ACCEPTED",
+        "timestamp_convention": {
+          "pts": "integer stream time-base units; retained verbatim when available",
+          "selected_identity": "source_frame_index plus source_frame_sha256 are authoritative",
+          "source_frame_index": "1-based decoded frame ordinal; identity authority",
+          "timestamp": "seconds from source presentation timeline, derived from PTS"
+        },
+        "total_ticks": 12
+      },
       "basic_motion": {
-        "advisory": "approx. 10-14 useful frames (READY, ANTICIPATION, THRUST, PEAK, RECOIL, RECOVERY)",
-        "current_stage": "frame_review",
+        "curation_manifest": "production_sources/trung-trac/06_curation/curation.json",
+        "curation_manifest_sha256": "dba091d8b03ead41b61d8380f4adc01f0c6a24aeb6bf5d3bdfa5d587616dba44",
+        "current_stage": "animation_timing",
+        "drop_count": 228,
         "duration": 10.01,
+        "extracted_frame_count": 240,
+        "first_selected": {
+          "frame_index": 74,
+          "phase": "READY",
+          "sha256": "f41b468341a25558f754607815aa1bb41eb518d24655230e57ec54d95a41f56c",
+          "timestamp": 3.041667
+        },
         "fps": 24.0,
-        "frame_count": 240,
-        "frame_review_status": "NEEDS_REVIEW",
+        "frame_curation_status": "ACCEPTED",
+        "frame_review_status": "ACCEPTED",
         "height": 720,
-        "hint_filename": "TIMING_PRIORITY___The_entire_a.mp4",
+        "keep_count": 12,
+        "last_selected": {
+          "frame_index": 114,
+          "phase": "RECOVERY_STANCE",
+          "sha256": "eb8bf6ccbb1d6a328fd44585d0622aa96e19f1b421f8df15bfa85e4128bf770a",
+          "timestamp": 4.708333
+        },
+        "peak_selected": {
+          "frame_index": 97,
+          "phase": "PEAK_THRUST",
+          "sha256": "29b6f9272ce0c2d1b9f6a7e7f317b2337b2842d24270a3067cafaea77a5e06b1",
+          "timestamp": 4.0
+        },
+        "selected_frame_count": 12,
         "source_alias": "TIMING_PRIORITY_BASIC_THRUST",
         "source_path": "production_sources/trung-trac/media/basic_attack/TIMING_PRIORITY___The_entire_a.mp4",
         "source_sha256": "e503167926b4f0cb5efc693a35457d56a6e0ad3c116b52474806a7e38fb730cb",
-        "status": "NEEDS_REVIEW",
+        "status": "ACCEPTED",
         "width": 1280
       },
-      "canonical_image_checksum": "279900c86ff590a879abdfec22a1846f2c3d808a95f2204521eee50446646db4",
       "character_id": "trung-trac",
-      "composite_status": "NEEDS_REVIEW",
-      "display_name": "Trưng Trắc",
+      "composite": {
+        "first_sha256": "c672a2600eaa752a0e1d863bf49d38df51db06e5f1bb4a7412329b996b275b63",
+        "last_sha256": "e3cc803d02edfd98d6e745eb57433ddd7ce49759d24523be3d565a5cee91907f",
+        "manifest": "production_sources/trung-trac/composite/composite.json",
+        "manifest_sha256": "bbd23b8c8e35525b79b7ab12cdc04c6112d94dc1f1cce25fc440ed3ee2cf2581",
+        "peak_sha256": "cefa8df584628e19159ff5ce4f79472a85c912e541849b5eaa55e5e914a9b8c3",
+        "status": "ACCEPTED"
+      },
       "next_actions": [
-        "REVIEW_BASIC_ATTACK_FRAMES",
-        "REVIEW_VFX_CURATION"
+        "SPRITESHEET_EXPORT",
+        "RUNTIME_INTEGRATION"
       ],
-      "production_state": "READY_FOR_VISUAL_REVIEW",
+      "next_human_gate": "NONE",
+      "production_state": "PRODUCTION_READY",
       "profile_checksum": "2baf60b9ed21ff8303700c6ac0610a2c7648bd5a1af06f39a7e540a636b4942f",
+      "schema_version": "1.0",
+      "stage": "character_production_pilot",
       "vfx": {
         "anchor": "WEAPON_TIP",
-        "current_stage": "vfx_source_curation",
+        "curation_manifest": "production_sources/trung-trac/vfx/curation/curation.json",
+        "curation_manifest_sha256": "ad8e952f94967d4aa563d7f31b06f53c48a31da9d88d3bf2506961f9d31a0c69",
+        "curation_status": "ACCEPTED",
+        "current_stage": "vfx_asset_binding",
+        "drop_count": 228,
         "duration": 10.01,
         "effect_subtype": "PIERCE",
+        "extracted_frame_count": 240,
+        "first_selected": {
+          "frame_index": 12,
+          "phase_tag": "CHARGE",
+          "sha256": "a3aab39915fcd2d61d287151f7e38700a734e7fc8fba500c846cd4f98bc057ae",
+          "timestamp": 0.458333
+        },
         "fps": 24.0,
-        "frame_count": 240,
         "height": 720,
+        "keep_count": 12,
+        "last_selected": {
+          "frame_index": 34,
+          "phase_tag": "DISSIPATE",
+          "sha256": "4e540df867389e57ec14d8a6e13846b6cd4fb9e39ac163d454cdcfeb3ee6c1b2",
+          "timestamp": 1.375
+        },
         "logical_identity": "LONG_THUONG_PHA_TRAN",
-        "review_status": "NEEDS_REVIEW",
+        "peak_selected": {
+          "frame_index": 20,
+          "phase_tag": "PEAK",
+          "sha256": "5de36695b9132bc07b8dc069411a712befebafabf9d2068fda29ceb30e5b949e",
+          "timestamp": 0.791667
+        },
+        "review_status": "ACCEPTED",
+        "selected_frame_count": 12,
         "source_path": "production_sources/trung-trac/media/vfx/1000052536.mp4",
         "source_sha256": "3916b2fd49e1e3211691d2178fbc6a5c3e684339eba9722d7602ef53ce57d16f",
-        "status": "NEEDS_REVIEW",
+        "status": "ACCEPTED",
         "type": "DIRECTIONAL",
         "width": 1280
       },
-      "vfx_binding_status": "NEEDS_REVIEW"
+      "vfx_asset": {
+        "alpha_manifest": "production_sources/trung-trac/vfx/alpha/overlay.json",
+        "alpha_manifest_sha256": "9d945a2f6abf75e0621985920f097d54e52fded31e6bd9f0fab753db6b9f2995",
+        "asset_id": "LONG_THUONG_PHA_TRAN",
+        "asset_version": "1",
+        "content_checksum": "0888c2fe233fcab30f56914169194ac09b07634d0d7a1dd6cd32ca8250216d05",
+        "curation_manifest_sha256": "ad8e952f94967d4aa563d7f31b06f53c48a31da9d88d3bf2506961f9d31a0c69",
+        "status": "VALID"
+      },
+      "vfx_binding": {
+        "anchor_type": "WEAPON_TIP",
+        "manifest": "production_sources/trung-trac/vfx/binding/variant.json",
+        "manifest_sha256": "bf35731c1ce750993def1e84d7aed08d782fabb4cb64ed0de336c28a47e8447b",
+        "status": "ACCEPTED",
+        "transform_candidate": {
+          "flip_x": false,
+          "flip_y": false,
+          "rotation_degrees": 0,
+          "translate_x": 0,
+          "translate_y": 0,
+          "uniform_scale": 1
+        }
+      }
     }
   ],
+  "implementation_sha_tested": "e2aca450f464738b437500bf6c912124b5983525",
   "known_limitations": [
     "Golden runtime packs remain pending delivery of the accepted aligned master PNG sequences from the Gate-17 production workspace.",
     "This repository is Python-only and has no `package.json`; `npm test` and `npm run build` cannot run here."
   ],
-  "production_artifacts": [
-    {
-      "action_count": 2,
-      "kind": "character_action_pack",
-      "manifest": "examples/production-fixture/production/action_pack.json",
-      "sha256": "0eb7e944bd8c2c5bd7d5d9954aca004dc94cf7a9ff710e8fad851e3021675759",
-      "state": "COMPLETE"
-    },
-    {
-      "action_count": 2,
-      "kind": "character.json",
-      "manifest": "examples/production-fixture/production/character.json",
-      "sha256": "a520538876ce8ee8f5b9fae6c2d4c294c649d626ea9b7559582fd2e81c5d56c5",
-      "state": "COMPLETE"
-    }
-  ],
+  "production_artifacts": [],
   "qa_status": "PASS_WITH_NOTES",
   "repository": "LightDucan/VibeCode-Asset-Studio",
   "status": "BLOCKED_INPUT",
@@ -244,70 +421,8 @@
     "passed": 175,
     "total": 175
   },
-  "vfx_asset_library_artifacts": [
-    {
-      "asset_id": "directional-line-v1",
-      "content_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "frame_count": 3,
-      "manifest": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
-      "sha256": "e7d079cb24454176becf31df81a86b453cf5a3acb4efac316bd18f8dd52f8a82",
-      "version": "1"
-    },
-    {
-      "asset_id": "triple-line-v1",
-      "content_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
-      "frame_count": 3,
-      "manifest": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
-      "sha256": "57864b06f32e94aedad4c528e32d8eaab70b9c44b3b06ba5f4cd8a011eb5ae2d",
-      "version": "1"
-    }
-  ],
-  "vfx_composite_artifacts": [
-    {
-      "first": {
-        "path": "vfx/composite/png/frame_000001.png",
-        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
-      },
-      "frame_count": 1,
-      "last": {
-        "path": "vfx/composite/png/frame_000001.png",
-        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
-      },
-      "manifest": "examples/background-removal-fixture/vfx/composite/composite.json"
-    }
-  ],
-  "vfx_curation_artifacts": [
-    {
-      "first": {
-        "path": "vfx/extracted/frames/frame_000001.png",
-        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
-      },
-      "last": {
-        "path": "vfx/extracted/frames/frame_000003.png",
-        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
-      },
-      "manifest": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
-      "selection_count": 3
-    }
-  ],
-  "vfx_variant_artifacts": [
-    {
-      "composite_checksum": "1111111111111111111111111111111111111111111111111111111111111111",
-      "manifest": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
-      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "sha256": "43a7f22555ab990ab0fe1cc2262b74ac8a8b88ff188730df207121b10bbb9756",
-      "state": "READY",
-      "variant_id": "variant-a",
-      "vfx_asset_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-    },
-    {
-      "composite_checksum": "2222222222222222222222222222222222222222222222222222222222222222",
-      "manifest": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
-      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "sha256": "50784aef60d4d870010b8afdf65690b59f3dba97870e8cd5a11d6e786fb27cfe",
-      "state": "READY",
-      "variant_id": "variant-b",
-      "vfx_asset_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
-    }
-  ]
+  "vfx_asset_library_artifacts": [],
+  "vfx_composite_artifacts": [],
+  "vfx_curation_artifacts": [],
+  "vfx_variant_artifacts": []
 }

@@ -11,8 +11,8 @@ Branch: `codex/task-cx-018-runtime-export-pack`
 - Status: ACCEPTED
 - Decision: ACCEPTED
 - Implementation: `323d53a1e80d9e20b7369648453419ba31f5df2a`
-- Exporter Implementation Commit: `fd4a30e98ea1afa91fdd0d286d9407d40310d928`
-- Integration Implementation SHA: `fd4a30e98ea1afa91fdd0d286d9407d40310d928`
+- Exporter Implementation Commit: `e2aca450f464738b437500bf6c912124b5983525`
+- Integration Implementation SHA: `e2aca450f464738b437500bf6c912124b5983525`
 - QA Task Commit: `773256025fe97e489a3dba88e37265b18de4f283`
 - Audit Mirror: `ce712e5fae1988904ebd3cb64e460e717629f3bc`
 - Tests: 169 / 169 PASS
