@@ -42,11 +42,11 @@
     "scripts/export_audit_snapshot.py",
     "tests/test_vibecode_golden_pilot.py"
   ],
-  "commit_sha": "e2e34a20d267fc4c2ad4e413fc21749934c734f1",
+  "commit_sha": "2e17771cdc70dfb9f3b3a56c12203778bf6f5bc0",
   "diff_stat": {
     "deletions": 51,
     "files": 13,
-    "insertions": 480
+    "insertions": 497
   },
   "exported_png_artifacts": [],
   "golden_pilot_characters": [
@@ -97,6 +97,7 @@
       }
     }
   ],
+  "implementation_sha_tested": "e2e34a20d267fc4c2ad4e413fc21749934c734f1",
   "known_limitations": [],
   "production_artifacts": [],
   "qa_status": "PASS_WITH_NOTES",
@@ -105,8 +106,8 @@
   "task_id": "TASK-CX-016",
   "tests": {
     "failed": 0,
-    "passed": 150,
-    "total": 150
+    "passed": 151,
+    "total": 151
   },
   "vfx_asset_library_artifacts": [],
   "vfx_composite_artifacts": [],
