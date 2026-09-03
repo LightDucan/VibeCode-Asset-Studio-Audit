@@ -99,12 +99,15 @@
   ],
   "base_sha": "773256025fe97e489a3dba88e37265b18de4f283",
   "branch": "codex/task-cx-018-runtime-export-pack",
-  "changed_files": [],
-  "commit_sha": "773256025fe97e489a3dba88e37265b18de4f283",
+  "changed_files": [
+    "tests/test_vibecode_runtime_export.py",
+    "vibecode/services/runtime_export.py"
+  ],
+  "commit_sha": "fd4a30e98ea1afa91fdd0d286d9407d40310d928",
   "diff_stat": {
     "deletions": 0,
-    "files": 0,
-    "insertions": 0
+    "files": 2,
+    "insertions": 266
   },
   "exported_png_artifacts": [
     {
