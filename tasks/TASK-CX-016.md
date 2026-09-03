@@ -4,6 +4,7 @@ STATUS: READY_FOR_QA
 
 Base commit: `78ee4a400b786ad6ce93d8b0dd0899bffecc383c`
 Branch: `codex/task-cx-016-golden-production-pilot`
+Integration Implementation SHA: `e2adf0f8e5c67ebb027f3698388b23c0ad215993`
 
 ## Phase 0: Gate 15 Acceptance Record
 
@@ -13,7 +14,7 @@ Branch: `codex/task-cx-016-golden-production-pilot`
 - **Implementation**: `78ee4a400b786ad6ce93d8b0dd0899bffecc383c`
 - **QA Task Commit**: `bbca5f1c77c989dcaa0951b166deb4bd5e26fef4`
 - **Audit Mirror Commit**: `c39da131870105eb9e142f188fb81780f028fa8a`
-- **Tests**: 140 / 140 PASS
+- **Tests**: 150 / 150 PASS
 - **Safety**: `PROJECT_ROOT_CONTAINMENT` = PASS, `FAILED_REBUILD_PRESERVATION` = PASS, `HUMAN_GATE_ENFORCEMENT` = PASS, `NO_DESTRUCTIVE_VCS` = PASS
 
 ---
@@ -48,8 +49,8 @@ This task establishes canonical character profiles, source-map registries, logic
   - Anchor: `WEAPON_TIP`
   - Status: `NEEDS_REVIEW`
   - VFX Content SHA256: `92eb12593dfdb1d83556622936032086db6ccbf9db459e709b704fcd49df8cb7`
-- **Production State**: `READY_FOR_VISUAL_REVIEW`
-- **Next Actions**: `REVIEW_BASIC_ATTACK_FRAMES`, `PROVIDE_BASIC_ATTACK_VIDEO`
+- **Production State**: `BLOCKED_ASSET_INPUT`
+- **Next Actions**: `PROVIDE_BASIC_ATTACK_VIDEO`
 
 ### 2. Trưng Nhị (`trung-nhi`)
 
@@ -71,8 +72,8 @@ This task establishes canonical character profiles, source-map registries, logic
   - Anchor: `MUZZLE`
   - Status: `NEEDS_REVIEW`
   - VFX Content SHA256: `cbb29b2f8ccdd373735341eccb26a2e66b1798cf8cecf4c86a76d6f2014c9e95`
-- **Production State**: `READY_FOR_VISUAL_REVIEW`
-- **Next Actions**: `PROVIDE_BASIC_ATTACK_VIDEO`, `REVIEW_BASIC_ATTACK_FRAMES`
+- **Production State**: `BLOCKED_ASSET_INPUT`
+- **Next Actions**: `PROVIDE_BASIC_ATTACK_VIDEO`
 
 ---
 
@@ -92,7 +93,11 @@ This task establishes canonical character profiles, source-map registries, logic
 5. **Human Gate Enforcement**: Orchestration stops deterministically at human gates (`frame_review`, `frame_curation`, `vfx_source_curation`). Never auto-approves.
 6. **Cross-Character Isolation**: Modifying Trưng Trắc leaves Trưng Nhị manifest and artifact hashes completely unchanged, and vice versa.
 7. **Interruption Safety**: Simulated staging interruption leaves previously accepted outputs and source files intact.
-8. **Regression Suite**: 146 / 146 unit tests passing (0 failures).
+8. **Regression Suite**: 150 / 150 unit tests passing (0 failures).
+
+## Fail-Closed Pilot State
+
+Both required BASIC_ATTACK sources remain unmapped. Each Character therefore stays `BLOCKED_ASSET_INPUT`; the only valid next action is `PROVIDE_BASIC_ATTACK_VIDEO`. Frame review is not advertised until extraction/review artifacts exist. VFX preparation remains independently `NEEDS_REVIEW` with its real content SHA and anchor identity.
 
 ## Issue Severity Summary
 - P0: 0
