@@ -100,24 +100,14 @@
   "base_sha": "be40f6636ed188cf2b04d71886f41a6b51f68437",
   "branch": "codex/task-cx-019-dual-source-action-core",
   "changed_files": [
-    "docs/handoff/TASK-AG-019-HANDOFF.md",
-    "docs/qa/TASK-AG-019.md",
-    "docs/qa/screenshots/task_ag_019_phase1_variants.png",
-    "docs/qa/screenshots/task_ag_019_phase2_comparison.png",
-    "docs/qa/screenshots/task_ag_019_phase3_prompts.png",
-    "docs/qa/screenshots/task_ag_019_phase4_checklist.png",
-    "docs/tasks/TASK-CX-019.md",
     "tests/test_vibecode_action_production.py",
-    "tests/test_vibecode_action_variant_workspace.py",
-    "vibecode/action_variant_workspace.py",
-    "vibecode/prompt_presets.py",
     "vibecode/services/action_production.py"
   ],
-  "commit_sha": "3c84fbd714a4122fa95e60b3a0b36faa311cabee",
+  "commit_sha": "4f966617150d180838076bd9d3030971b7528c17",
   "diff_stat": {
     "deletions": 0,
-    "files": 12,
-    "insertions": 2629
+    "files": 2,
+    "insertions": 356
   },
   "exported_png_artifacts": [
     {
