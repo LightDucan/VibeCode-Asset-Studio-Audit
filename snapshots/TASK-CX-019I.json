@@ -113,11 +113,11 @@
     "vibecode/prompt_presets.py",
     "vibecode/services/action_production.py"
   ],
-  "commit_sha": "d260129b19c34a9c42076a74a00f3fe703029646",
+  "commit_sha": "e67923eb7a419e710d2a2c5becc6b257f3b73b1e",
   "diff_stat": {
     "deletions": 0,
     "files": 12,
-    "insertions": 2312
+    "insertions": 2317
   },
   "exported_png_artifacts": [
     {
@@ -225,7 +225,10 @@
       "vfx_binding_status": "NEEDS_REVIEW"
     }
   ],
-  "known_limitations": [],
+  "known_limitations": [
+    "The symlink-escape regression is skipped only when Windows denies symlink creation; the containment guard is exercised for ordinary paths.",
+    "Gate18 remains `BLOCKED_MASTER_HANDOFF` because no accepted aligned PNG masters are available; no source media was regenerated."
+  ],
   "production_artifacts": [
     {
       "action_count": 2,

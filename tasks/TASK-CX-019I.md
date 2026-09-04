@@ -26,3 +26,8 @@ INTEGRATION_SHA: `26749b2b2300b0f239a4d2eab8492e503677edae`
 FILES_DELETED: NONE
 HUYENSU_TD_WRITES: NONE
 P0/P1/P2/P3: 0 / 0 / 0 / 0
+
+### Known Limitations
+
+- The symlink-escape regression is skipped only when Windows denies symlink creation; the containment guard is exercised for ordinary paths.
+- Gate18 remains `BLOCKED_MASTER_HANDOFF` because no accepted aligned PNG masters are available; no source media was regenerated.
