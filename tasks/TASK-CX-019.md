@@ -5,6 +5,7 @@ STATUS: READY_FOR_AUDIT
 Base commit: `be40f6636ed188cf2b04d71886f41a6b51f68437`
 Branch: `codex/task-cx-019-dual-source-action-core`
 Implementation SHA: `4f966617150d180838076bd9d3030971b7528c17`
+Integration Implementation SHA: `4f966617150d180838076bd9d3030971b7528c17`
 
 ## Scope
 
