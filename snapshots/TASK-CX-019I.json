@@ -1,0 +1,320 @@
+{
+  "artifacts": [
+    {
+      "path": "examples/background-removal-fixture/07_background_removal/background_removal.json",
+      "sha256": "a7f2685fbb12c633626cafb18a80f24f79a94e32ed60e9bf93099c4410631530"
+    },
+    {
+      "path": "examples/background-removal-fixture/08_canvas_alignment/alignment.json",
+      "sha256": "898496674eae64e62dba997bf2c92c3c35ad94e6fb1cedfe289d8e6d94370071"
+    },
+    {
+      "path": "examples/background-removal-fixture/09_animation_timing/timing.json",
+      "sha256": "d12ba96e2a6925276afeb72097a1f8bade79f1ebafdc87104ab1e694dd5d101c"
+    },
+    {
+      "path": "examples/background-removal-fixture/10_realtime_preview/preview.json",
+      "sha256": "6f2c664fef61f238c2a630a98f7d417b32d7998185c025c7d50ea1b59bdeba41"
+    },
+    {
+      "path": "examples/background-removal-fixture/11_png_sequence_export/export.json",
+      "sha256": "564ac840c32c4d544da237b18b573d1f5cff7e796a89e5b726697430241a70fd"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/composite/composite.json",
+      "sha256": "a65b4d80f3d7da1573b17846719ac9ead2d902834d1cab48e76b6602b39dcf8a"
+    },
+    {
+      "path": "examples/background-removal-fixture/vfx/overlay.json",
+      "sha256": "d1c3bda5645587f962600fd3874436e9b3d50cfca300b6eba43a1ed6eac0cfde"
+    },
+    {
+      "path": "examples/production-fixture/production/action_pack.json",
+      "sha256": "0eb7e944bd8c2c5bd7d5d9954aca004dc94cf7a9ff710e8fad851e3021675759"
+    },
+    {
+      "path": "examples/production-fixture/production/character.json",
+      "sha256": "a520538876ce8ee8f5b9fae6c2d4c294c649d626ea9b7559582fd2e81c5d56c5"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
+      "sha256": "43a7f22555ab990ab0fe1cc2262b74ac8a8b88ff188730df207121b10bbb9756"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
+      "sha256": "50784aef60d4d870010b8afdf65690b59f3dba97870e8cd5a11d6e786fb27cfe"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
+      "sha256": "9bfa0b79c8775ed3eec0962dc63b60f8ce5b6ff8357151ab2ed905107d7d0e6d"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/extracted/extraction.json",
+      "sha256": "e069a8977b9da1294abef9fe0c5fd5e621cc7d14c0702a394ae6cb6e6547fad9"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx/intake/source.json",
+      "sha256": "71e118e2a37add23f1a01d467e6a6c1c11f9eb4744db9a7e2328b857f849b986"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
+      "sha256": "e7d079cb24454176becf31df81a86b453cf5a3acb4efac316bd18f8dd52f8a82"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/index.json",
+      "sha256": "4cdca76bebed18db990ec3b78ddc454f785ff405520b5b017434317d48413a14"
+    },
+    {
+      "path": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
+      "sha256": "57864b06f32e94aedad4c528e32d8eaab70b9c44b3b06ba5f4cd8a011eb5ae2d"
+    },
+    {
+      "path": "examples/vibecode_intake_example/projects/example-girl/actions/shoot/run-001/05_review/review.json",
+      "sha256": "d33a9402014fe035edbc32c96f162594579ac7237c18ba7110faa7a267923991"
+    },
+    {
+      "path": "production_sources/trung-nhi/production.json",
+      "sha256": "b81ca81b6864fb26a5e12a9ea4bc4e56a8fd06786449a5d476b854caa6fb9eff"
+    },
+    {
+      "path": "production_sources/trung-nhi/profile.json",
+      "sha256": "4b406b7503bb552fd0398fa553624d52dbb4243dcaff387408df24b84fc6a145"
+    },
+    {
+      "path": "production_sources/trung-nhi/source-map.json",
+      "sha256": "f6dae6b6ea72172120f4d91498027b226f947604c91807a41e108180250785b1"
+    },
+    {
+      "path": "production_sources/trung-trac/production.json",
+      "sha256": "7164862c0737dd5150209ced4ea0ebf72bb5ee9440a731af429e52b3f2bc8610"
+    },
+    {
+      "path": "production_sources/trung-trac/profile.json",
+      "sha256": "2baf60b9ed21ff8303700c6ac0610a2c7648bd5a1af06f39a7e540a636b4942f"
+    },
+    {
+      "path": "production_sources/trung-trac/source-map.json",
+      "sha256": "3bdff36f3b0c0f96dafc26efef605ebb00d08a0790867d1b40ac7c3c3fe17fc1"
+    }
+  ],
+  "base_sha": "4f966617150d180838076bd9d3030971b7528c17",
+  "branch": "codex/task-cx-019i-dual-source-integration",
+  "changed_files": [
+    "docs/handoff/TASK-AG-019-HANDOFF.md",
+    "docs/qa/TASK-AG-019.md",
+    "docs/qa/screenshots/task_ag_019_phase1_variants.png",
+    "docs/qa/screenshots/task_ag_019_phase2_comparison.png",
+    "docs/qa/screenshots/task_ag_019_phase3_prompts.png",
+    "docs/qa/screenshots/task_ag_019_phase4_checklist.png",
+    "docs/tasks/TASK-CX-019I.md",
+    "tests/test_cx019i_integration.py",
+    "tests/test_vibecode_action_variant_workspace.py",
+    "vibecode/action_variant_workspace.py",
+    "vibecode/prompt_presets.py",
+    "vibecode/services/action_production.py"
+  ],
+  "commit_sha": "d260129b19c34a9c42076a74a00f3fe703029646",
+  "diff_stat": {
+    "deletions": 0,
+    "files": 12,
+    "insertions": 2312
+  },
+  "exported_png_artifacts": [
+    {
+      "first": {
+        "path": null,
+        "sha256": null
+      },
+      "frame_count": 1,
+      "last": {
+        "path": null,
+        "sha256": null
+      },
+      "manifest": "examples/background-removal-fixture/11_png_sequence_export/export.json"
+    }
+  ],
+  "golden_pilot_characters": [
+    {
+      "animation_timing_status": "NEEDS_REVIEW",
+      "basic_motion": {
+        "advisory": "approx. 9-12 useful frames (READY, AIM, PRE-FIRE, FIRE, RECOIL, RECOVERY)",
+        "current_stage": "frame_review",
+        "duration": 10.01,
+        "fps": 24.0,
+        "frame_count": 240,
+        "frame_review_status": "NEEDS_REVIEW",
+        "height": 720,
+        "hint_filename": "1000052543.mp4",
+        "source_alias": "TRUNG_NHI_BASIC_CROSSBOW",
+        "source_path": "production_sources/trung-nhi/media/basic_attack/1000052543.mp4",
+        "source_sha256": "9294017851696c0db7c327e582705170c0be05405a1a50fde36e855f0458509a",
+        "status": "NEEDS_REVIEW",
+        "width": 1280
+      },
+      "canonical_image_checksum": "e05af1093d0e6c8cb3cbf5715dd34ec881e6cd8a67804577050287006288c22c",
+      "character_id": "trung-nhi",
+      "composite_status": "NEEDS_REVIEW",
+      "display_name": "Trưng Nhị",
+      "next_actions": [
+        "REVIEW_BASIC_ATTACK_FRAMES",
+        "REVIEW_VFX_CURATION"
+      ],
+      "production_state": "READY_FOR_VISUAL_REVIEW",
+      "profile_checksum": "4b406b7503bb552fd0398fa553624d52dbb4243dcaff387408df24b84fc6a145",
+      "vfx": {
+        "anchor": "MUZZLE",
+        "current_stage": "vfx_source_curation",
+        "duration": 10.01,
+        "effect_subtype": "BURST",
+        "fps": 24.0,
+        "frame_count": 240,
+        "height": 720,
+        "logical_identity": "TRIPLE_LINE_PRECISION",
+        "review_status": "NEEDS_REVIEW",
+        "source_path": "production_sources/trung-nhi/media/vfx/1000052538.mp4",
+        "source_sha256": "33f15289414f9fc42eaad665aeeb996c4ad517d4c818ae6d25d9ae97e17775b7",
+        "status": "NEEDS_REVIEW",
+        "type": "DIRECTIONAL",
+        "width": 1280
+      },
+      "vfx_binding_status": "NEEDS_REVIEW"
+    },
+    {
+      "animation_timing_status": "NEEDS_REVIEW",
+      "basic_motion": {
+        "advisory": "approx. 10-14 useful frames (READY, ANTICIPATION, THRUST, PEAK, RECOIL, RECOVERY)",
+        "current_stage": "frame_review",
+        "duration": 10.01,
+        "fps": 24.0,
+        "frame_count": 240,
+        "frame_review_status": "NEEDS_REVIEW",
+        "height": 720,
+        "hint_filename": "TIMING_PRIORITY___The_entire_a.mp4",
+        "source_alias": "TIMING_PRIORITY_BASIC_THRUST",
+        "source_path": "production_sources/trung-trac/media/basic_attack/TIMING_PRIORITY___The_entire_a.mp4",
+        "source_sha256": "e503167926b4f0cb5efc693a35457d56a6e0ad3c116b52474806a7e38fb730cb",
+        "status": "NEEDS_REVIEW",
+        "width": 1280
+      },
+      "canonical_image_checksum": "279900c86ff590a879abdfec22a1846f2c3d808a95f2204521eee50446646db4",
+      "character_id": "trung-trac",
+      "composite_status": "NEEDS_REVIEW",
+      "display_name": "Trưng Trắc",
+      "next_actions": [
+        "REVIEW_BASIC_ATTACK_FRAMES",
+        "REVIEW_VFX_CURATION"
+      ],
+      "production_state": "READY_FOR_VISUAL_REVIEW",
+      "profile_checksum": "2baf60b9ed21ff8303700c6ac0610a2c7648bd5a1af06f39a7e540a636b4942f",
+      "vfx": {
+        "anchor": "WEAPON_TIP",
+        "current_stage": "vfx_source_curation",
+        "duration": 10.01,
+        "effect_subtype": "PIERCE",
+        "fps": 24.0,
+        "frame_count": 240,
+        "height": 720,
+        "logical_identity": "LONG_THUONG_PHA_TRAN",
+        "review_status": "NEEDS_REVIEW",
+        "source_path": "production_sources/trung-trac/media/vfx/1000052536.mp4",
+        "source_sha256": "3916b2fd49e1e3211691d2178fbc6a5c3e684339eba9722d7602ef53ce57d16f",
+        "status": "NEEDS_REVIEW",
+        "type": "DIRECTIONAL",
+        "width": 1280
+      },
+      "vfx_binding_status": "NEEDS_REVIEW"
+    }
+  ],
+  "known_limitations": [],
+  "production_artifacts": [
+    {
+      "action_count": 2,
+      "kind": "character_action_pack",
+      "manifest": "examples/production-fixture/production/action_pack.json",
+      "sha256": "0eb7e944bd8c2c5bd7d5d9954aca004dc94cf7a9ff710e8fad851e3021675759",
+      "state": "COMPLETE"
+    },
+    {
+      "action_count": 2,
+      "kind": "character.json",
+      "manifest": "examples/production-fixture/production/character.json",
+      "sha256": "a520538876ce8ee8f5b9fae6c2d4c294c649d626ea9b7559582fd2e81c5d56c5",
+      "state": "COMPLETE"
+    }
+  ],
+  "qa_status": "PASS_WITH_NOTES",
+  "repository": "LightDucan/VibeCode-Asset-Studio",
+  "status": "READY_FOR_AUDIT",
+  "task_id": "TASK-CX-019I",
+  "tests": {
+    "failed": 0,
+    "passed": 196,
+    "total": 196
+  },
+  "vfx_asset_library_artifacts": [
+    {
+      "asset_id": "directional-line-v1",
+      "content_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "frame_count": 3,
+      "manifest": "examples/qa-multi-frame-vfx/vfx_library/directional-line-v1/1/asset.json",
+      "sha256": "e7d079cb24454176becf31df81a86b453cf5a3acb4efac316bd18f8dd52f8a82",
+      "version": "1"
+    },
+    {
+      "asset_id": "triple-line-v1",
+      "content_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "frame_count": 3,
+      "manifest": "examples/qa-multi-frame-vfx/vfx_library/triple-line-v1/1/asset.json",
+      "sha256": "57864b06f32e94aedad4c528e32d8eaab70b9c44b3b06ba5f4cd8a011eb5ae2d",
+      "version": "1"
+    }
+  ],
+  "vfx_composite_artifacts": [
+    {
+      "first": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "frame_count": 1,
+      "last": {
+        "path": "vfx/composite/png/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/background-removal-fixture/vfx/composite/composite.json"
+    }
+  ],
+  "vfx_curation_artifacts": [
+    {
+      "first": {
+        "path": "vfx/extracted/frames/frame_000001.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "last": {
+        "path": "vfx/extracted/frames/frame_000003.png",
+        "sha256": "94598205477f0d9817f0f73fa4451d2c133dae38af1d2f0bab4545d8fac763b8"
+      },
+      "manifest": "examples/qa-multi-frame-vfx/vfx/curation/curation.json",
+      "selection_count": 3
+    }
+  ],
+  "vfx_variant_artifacts": [
+    {
+      "composite_checksum": "1111111111111111111111111111111111111111111111111111111111111111",
+      "manifest": "examples/qa-multi-frame-vfx/variants/variant-a/variant.json",
+      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "sha256": "43a7f22555ab990ab0fe1cc2262b74ac8a8b88ff188730df207121b10bbb9756",
+      "state": "READY",
+      "variant_id": "variant-a",
+      "vfx_asset_checksum": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "composite_checksum": "2222222222222222222222222222222222222222222222222222222222222222",
+      "manifest": "examples/qa-multi-frame-vfx/variants/variant-b/variant.json",
+      "motion_checksum": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "sha256": "50784aef60d4d870010b8afdf65690b59f3dba97870e8cd5a11d6e786fb27cfe",
+      "state": "READY",
+      "variant_id": "variant-b",
+      "vfx_asset_checksum": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ]
+}
